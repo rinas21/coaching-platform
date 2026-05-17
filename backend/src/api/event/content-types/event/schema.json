@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "summary": {
+      "type": "text"
+    },
+    "description": {
+      "type": "blocks",
+      "required": true
+    },
+    "date_time": {
+      "type": "datetime",
+      "required": true
+    },
+    "registration_link": {
+      "type": "string"
+    },
+    "featured_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Physical",
+        "Webinar",
+        "Zoom Meeting",
+        "Workshop"
+      ],
+      "default": "Physical"
+    },
+    "location": {
+      "type": "string"
+    },
+    "duration_minutes": {
+      "type": "integer",
+      "min": 1
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true
+    },
+    "display_order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

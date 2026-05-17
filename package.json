@@ -1,0 +1,12 @@
+{
+  "name": "thesafespaceglobal",
+  "private": true,
+  "scripts": {
+    "dev:api": "cd api && node --env-file=../.env --watch src/index.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:strapi": "cd backend && dotenv -e ../.env -- sh -c 'export DATABASE_URL=\"$STRAPI_DATABASE_URL\" && npm run develop'"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^8.0.0"
+  }
+}

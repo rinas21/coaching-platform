@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blog_rich_texts",
+  "info": {
+    "displayName": "Rich Text Section",
+    "description": "Text section for blog content"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

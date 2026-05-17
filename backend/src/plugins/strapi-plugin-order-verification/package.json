@@ -1,0 +1,12 @@
+{
+  "name": "strapi-plugin-order-verification",
+  "version": "1.0.0",
+  "description": "Strapi admin plugin for order verification and payment confirmation",
+  "strapi": {
+    "name": "order-verification",
+    "description": "Order Verification Plugin",
+    "kind": "plugin"
+  },
+  "main": "./dist/index.js",
+  "dependencies": {}
+}

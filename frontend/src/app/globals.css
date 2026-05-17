@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-color: #FAF0DC;
+    --text-primary: #6B4226;
+    --primary: #C8893A;
+    --secondary: #1A2A4A;
+    --accent: #D4A853;
+    --sage: #7A9E7E;
+    --teal: #4A9E99;
+    --font-playfair: 'Playfair Display', serif;
+    --font-nunito: 'Nunito', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-bebas: 'Bebas Neue', sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: var(--font-nunito), sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+    background-attachment: fixed;
+    transition: background-color 0.8s ease, color 0.8s ease;
+  }
+
+  body.theme-light {
+    --bg-color: #ffffff;
+    background-color: var(--bg-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-playfair), serif;
+    color: var(--secondary);
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+  }
+
+  a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: var(--primary-hover);
+  }
+
+  button,
+  [type="button"],
+  [type="submit"] {
+    transition:
+      color 0.2s ease,
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  img {
+    max-width: 100%;
+    filter: sepia(10%) contrast(105%) brightness(102%);
+    transition: filter 0.5s ease;
+  }
+
+  img:hover {
+    filter: sepia(0%) contrast(100%) brightness(100%);
+  }
+
+  html {
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    * {
+      backdrop-filter: none !important;
+      -webkit-backdrop-filter: none !important;
+    }
+  }
+}
+
+.swiper-pagination {
+  bottom: 20px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 28px !important;
+  height: 14px !important;
+  border-radius: 50px !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.swiper-pagination-bullet-active {
+  width: 14px !important;
+  height: 14px !important;
+  background: white !important;
+}
+
+@layer components {
+
+  /* Layout utilities */
+  .container {
+    @apply mx-auto max-w-[1240px] px-6;
+  }
+
+  .section {
+    @apply py-20 md:py-32;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-6xl font-playfair font-bold mb-6 text-navy-brand;
+  }
+
+  .section-subtitle {
+    @apply text-xl text-brown-brand/80 mb-10 max-w-2xl font-nunito;
+  }
+
+  .card {
+    @apply bg-white/60 backdrop-blur-sm rounded-[2rem] shadow-sm border border-amber-brand/10 overflow-hidden transition-all duration-300 hover:shadow-md hover:border-amber-brand/20;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    @apply inline-flex items-center justify-center bg-amber-brand text-white rounded-full px-8 py-4 font-bold transition-all hover:scale-[1.02] hover:shadow-lg hover:shadow-amber-brand/20 active:scale-[0.98] disabled:opacity-50;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center bg-navy-brand text-white rounded-full px-8 py-4 font-bold transition-all hover:scale-[1.02] hover:shadow-lg hover:shadow-navy-brand/20 active:scale-[0.98] disabled:opacity-50;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center bg-transparent text-navy-brand border-2 border-navy-brand rounded-full px-8 py-4 font-bold transition-all hover:bg-navy-brand hover:text-white active:scale-[0.98] disabled:opacity-50;
+  }
+
+  /* Auth / Forms */
+  .auth-page {
+    @apply min-h-[calc(100vh-100px)] flex items-center justify-center py-12 px-4 sm:px-6 bg-cream-brand;
+  }
+
+  .auth-page-inner {
+    @apply w-full max-w-md;
+  }
+
+  .auth-card {
+    @apply bg-white/80 backdrop-blur-md py-12 px-10 rounded-[2.5rem] shadow-xl shadow-amber-brand/5 border border-amber-brand/10 w-full flex flex-col gap-6;
+  }
+
+  .auth-title {
+    @apply text-3xl font-bold tracking-tight text-center;
+  }
+
+  .auth-lead {
+    @apply text-gray-500 text-center mb-2;
+  }
+
+  .auth-tabs {
+    @apply flex p-1 bg-gray-100 rounded-xl mb-4;
+  }
+
+  .auth-tabs button {
+    @apply flex-1 py-2 text-sm font-medium rounded-lg text-gray-500 transition-colors;
+  }
+
+  .auth-tabs button.active {
+    @apply bg-white text-gray-900 shadow-sm;
+  }
+
+  .auth-form {
+    @apply flex flex-col gap-4;
+  }
+
+  .auth-label {
+    @apply text-sm font-medium text-gray-700 block mb-1.5;
+  }
+
+  .auth-field {
+    @apply w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-50/50 focus:bg-white focus:ring-2 focus:ring-gray-900/10 focus:border-gray-900 outline-none transition-all;
+  }
+
+  .auth-submit {
+    @apply mt-2 w-full text-center py-3.5;
+  }
+
+  .auth-error {
+    @apply text-sm text-red-600 bg-red-50 p-3 rounded-lg border border-red-100;
+  }
+
+  .auth-forgot {
+    @apply text-sm text-right mt-1;
+  }
+
+  .auth-divider {
+    @apply relative flex items-center justify-center mt-2;
+  }
+
+  .auth-divider::before {
+    @apply content-[''] absolute w-full h-[1px] bg-gray-200;
+  }
+
+  .auth-divider span {
+    @apply relative bg-white px-4 text-sm text-gray-400;
+  }
+
+  /* Do not use overflow-hidden/rounded-full here — it clips Google’s sign-in iframe */
+  .auth-google-host {
+    @apply flex justify-center mt-2 w-full min-h-[44px];
+  }
+
+  .auth-back-home {
+    @apply text-center text-sm mt-4 text-gray-500;
+  }
+
+  .auth-footer-link {
+    @apply text-center text-sm mt-4;
+  }
+
+  .auth-success-hint {
+    @apply text-sm text-center text-emerald-800 bg-emerald-50 border border-emerald-100 rounded-xl px-4 py-3;
+  }
+
+  .auth-info {
+    @apply text-sm text-gray-600 bg-amber-50/80 border border-amber-100 rounded-xl px-4 py-3 leading-relaxed;
+  }
+
+  .auth-info-no-account {
+    @apply text-amber-950 bg-amber-50 border-amber-200/80;
+  }
+
+  .auth-info-code-sent {
+    @apply text-emerald-900 bg-emerald-50 border-emerald-100;
+  }
+
+  .auth-subtle {
+    @apply text-sm text-gray-500 text-center leading-relaxed -mt-1;
+  }
+
+  .auth-inline-link {
+    @apply text-amber-800 font-semibold underline-offset-2 hover:underline;
+  }
+
+  .auth-link-button {
+    @apply text-sm text-amber-800 font-semibold underline self-start mt-1 disabled:opacity-50;
+  }
+
+  .auth-link-button-muted {
+    @apply text-gray-600 font-medium;
+  }
+
+  .auth-reset-actions {
+    @apply flex flex-wrap gap-x-4 gap-y-2 items-center;
+  }
+
+  .auth-step-list {
+    @apply list-decimal list-inside text-sm text-gray-600 space-y-1.5 mb-1 pl-1;
+  }
+
+  .auth-step-list .auth-step-current {
+    @apply text-gray-900 font-semibold;
+  }
+
+  .auth-step-list .auth-step-done {
+    @apply text-gray-400 line-through decoration-gray-300;
+  }
+
+  .auth-field-hint {
+    @apply text-xs text-gray-500 -mt-2 leading-snug;
+  }
+
+  .auth-success-row {
+    @apply flex gap-3 items-start text-left;
+  }
+
+  .auth-dismiss {
+    @apply shrink-0 text-gray-500 hover:text-gray-800 text-lg leading-none px-1 rounded hover:bg-gray-100;
+  }
+
+  /* Store Features */
+  .store-page {
+    @apply bg-gray-50/30;
+  }
+
+  .store-hero {
+    @apply mb-16;
+  }
+
+  .store-eyebrow {
+    @apply text-sm font-bold tracking-widest text-indigo-600 uppercase mb-3;
+  }
+
+  .store-muted {
+    @apply text-gray-500;
+  }
+
+  .store-actions {
+    @apply flex flex-wrap gap-4 mt-8;
+  }
+
+  .store-cart-pill {
+    @apply ml-2 bg-white/20 px-2 py-0.5 rounded-full text-sm font-semibold inline-flex items-center;
+  }
+
+  .store-intro-grid {
+    @apply grid md:grid-cols-3 gap-6 mb-16;
+  }
+
+  .store-intro-card {
+    @apply p-8 bg-gray-50 border-none shadow-none;
+  }
+
+  .store-intro-title {
+    @apply text-xl font-bold mb-3;
+  }
+
+  .store-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+  }
+
+  .store-card {
+    @apply flex flex-col p-6;
+  }
+
+  .post-date {
+    @apply text-xs font-bold tracking-wider text-gray-400;
+  }
+
+  .store-card-title {
+    @apply text-xl font-bold mb-2;
+  }
+
+  .store-card-desc {
+    @apply text-gray-600 mb-6 flex-grow;
+  }
+
+  .store-card-footer {
+    @apply flex items-center justify-between mt-auto pt-6 border-t border-gray-100;
+  }
+
+  .store-price {
+    @apply text-xl font-semibold;
+  }
+
+  .store-add {
+    @apply flex items-center px-4 py-2 text-sm max-h-[40px];
+  }
+
+  .store-trust {
+    @apply mt-24 mb-12 max-w-3xl border-t border-gray-200 pt-16;
+  }
+
+  .store-trust-title {
+    @apply text-2xl font-bold mb-6;
+  }
+
+  .store-trust-list {
+    @apply flex flex-col gap-4 mb-8 text-lg list-decimal list-inside;
+  }
+
+  /* Checkout Features */
+  .checkout-layout {
+    @apply grid lg:grid-cols-[1fr, 400px] gap-12 items-start;
+  }
+
+  .checkout-empty {
+    @apply p-12 text-center flex flex-col items-center gap-6;
+  }
+
+  .checkout-lines {
+    @apply flex flex-col gap-4 list-none p-0 m-0 mt-8;
+  }
+
+  .checkout-line {
+    @apply p-6 flex flex-col sm:flex-row gap-6 justify-between items-start sm:items-center;
+  }
+
+  .checkout-line-main h3 {
+    @apply text-lg font-bold mb-1;
+  }
+
+  .checkout-qty {
+    @apply flex items-center justify-center gap-4 bg-gray-50 px-2 py-1 object-contain rounded-full border border-gray-200 mt-4 w-[110px];
+  }
+
+  .checkout-qty button {
+    @apply w-8 h-8 flex items-center justify-center font-medium bg-white rounded-full border border-gray-200 transition-colors hover:bg-gray-50;
+  }
+
+  .checkout-line-side {
+    @apply flex flex-col items-end gap-3 w-full sm:w-auto;
+  }
+
+  .checkout-remove {
+    @apply text-sm text-red-500 hover:text-red-600 font-medium bg-transparent border-0 cursor-pointer;
+  }
+
+  .checkout-aside {
+    @apply p-8 bg-gray-50 border-none md:sticky md:top-32;
+  }
+
+  .checkout-aside-title {
+    @apply text-xl font-bold mb-6;
+  }
+
+  .checkout-row {
+    @apply flex justify-between items-center text-xl mb-4 border-b border-gray-200 pb-4;
+  }
+
+  .checkout-note {
+    @apply text-sm mb-6;
+  }
+
+  .checkout-pay {
+    @apply w-full py-4 text-lg;
+  }
+
+  .checkout-footer {
+    @apply mt-6 text-center;
+  }
+
+  .checkout-signin-hint {
+    @apply mb-6 p-4 bg-blue-50 text-blue-900 rounded-xl text-sm border border-blue-100;
+  }
+}

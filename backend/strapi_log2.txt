@@ -1,0 +1,267 @@
+
+> backend@0.1.0 dev
+> strapi develop
+
+- Cleaning dist dir /home/rinas/Desktop/wincore/thesafespaceglobal/backend/dist
+✔ Cleaning dist dir (6ms)
+- Loading Strapi
+[2026-04-02 15:34:28.072] [32minfo[39m: [discard-drafts] Migration started
+[2026-04-02 15:34:28.075] [32minfo[39m: [discard-drafts] Stage 1/5 – cloning published entries into draft rows
+[2026-04-02 15:34:28.076] [32minfo[39m: [discard-drafts] Stage 1/5 complete
+[2026-04-02 15:34:28.076] [32minfo[39m: [discard-drafts] Stage 2/5 – copying relations and components to drafts
+[2026-04-02 15:34:28.076] [32minfo[39m: [discard-drafts] Stage 2/5 complete
+[2026-04-02 15:34:28.076] [32minfo[39m: [discard-drafts] Stage 3/5 – fixing existing draft relations
+[2026-04-02 15:34:28.076] [32minfo[39m: [discard-drafts] Stage 3/5 complete
+[2026-04-02 15:34:28.076] [32minfo[39m: [discard-drafts] Stage 4/5 – fixing existing draft component relations
+[2026-04-02 15:34:28.076] [32minfo[39m: [discard-drafts] Stage 4/5 complete
+[2026-04-02 15:34:28.077] [32minfo[39m: [discard-drafts] Stage 4b/5 – fixing published component relations to published targets
+[2026-04-02 15:34:28.077] [32minfo[39m: [discard-drafts] Stage 4b/5 complete
+[2026-04-02 15:34:28.077] [32minfo[39m: [discard-drafts] Stage 5/5 – updating foreign key references to draft targets
+[2026-04-02 15:34:28.077] [32minfo[39m: [discard-drafts] Stage 5/5 complete
+[2026-04-02 15:34:28.077] [32minfo[39m: [discard-drafts] Migration completed successfully
+[2026-04-02 15:34:28.840] [32minfo[39m: The Users & Permissions plugin automatically generated a jwt secret and stored it in .env under the name JWT_SECRET.
+[2026-04-02 15:34:28.841] [33mwarn[39m: admin.auth.options.expiresIn is deprecated and will be removed in Strapi 6. Please configure admin.auth.sessions.maxRefreshTokenLifespan and admin.auth.sessions.maxSessionLifespan.
+- Building build context
+
+[INFO] Including the following ENV variables as part of the JS bundle:
+    - ADMIN_PATH
+    - STRAPI_ADMIN_BACKEND_URL
+    - STRAPI_TELEMETRY_DISABLED
+    - STRAPI_AI_URL
+    - STRAPI_ANALYTICS_URL
+✔ Building build context (90ms)
+- Creating admin
+✔ Creating admin (498ms)
+✔ Loading Strapi (3462ms)
+- Generating types
+✔ Generating types (343ms)
+- Compiling TS
+- Cleaning dist dir /home/rinas/Desktop/wincore/thesafespaceglobal/backend/dist
+✔ Cleaning dist dir (48ms)
+✔ Compiling TS (1242ms)
+
+ Project information
+
+[90m┌────────────────────[39m[90m┬──────────────────────────────────────────────────┐[39m
+[90m│[39m Time               [90m│[39m Thu Apr 02 2026 15:34:32 GMT+0530 (India Standa… [90m│[39m
+[90m│[39m Launched in        [90m│[39m 5055 ms                                          [90m│[39m
+[90m│[39m Environment        [90m│[39m development                                      [90m│[39m
+[90m│[39m Process PID        [90m│[39m 15291                                            [90m│[39m
+[90m│[39m Version            [90m│[39m 5.41.1 (node v25.8.0)                            [90m│[39m
+[90m│[39m Edition            [90m│[39m Community                                        [90m│[39m
+[90m│[39m Database           [90m│[39m sqlite                                           [90m│[39m
+[90m│[39m Database name      [90m│[39m .tmp/data.db                                     [90m│[39m
+[90m└────────────────────[39m[90m┴──────────────────────────────────────────────────┘[39m
+
+ Actions available
+
+One more thing...
+Create your first administrator 💻 by going to the administration panel at:
+
+[90m┌─────────────────────────────┐[39m
+[90m│[39m http://localhost:1337/admin [90m│[39m
+[90m└─────────────────────────────┘[39m
+
+[2026-04-02 15:34:32.649] [32minfo[39m: Strapi started successfully
+[2026-04-02 15:34:32.997] [32mhttp[39m: GET /admin (41 ms) 200
+[2026-04-02 15:34:33.001] [32minfo[39m: File changed: /home/rinas/Desktop/wincore/thesafespaceglobal/backend/strapi_log2.txt
+- Cleaning dist dir /home/rinas/Desktop/wincore/thesafespaceglobal/backend/dist
+✔ Cleaning dist dir (5ms)
+[2026-04-02 15:34:37.245] [32minfo[39m: Shutting down Strapi
+[2026-04-02 15:34:37.255] [32minfo[39m: Strapi has been shut down
+- Loading Strapi
+[2026-04-02 15:34:40.047] [33mwarn[39m: admin.auth.options.expiresIn is deprecated and will be removed in Strapi 6. Please configure admin.auth.sessions.maxRefreshTokenLifespan and admin.auth.sessions.maxSessionLifespan.
+- Building build context
+
+[INFO] Including the following ENV variables as part of the JS bundle:
+    - ADMIN_PATH
+    - STRAPI_ADMIN_BACKEND_URL
+    - STRAPI_TELEMETRY_DISABLED
+    - STRAPI_AI_URL
+    - STRAPI_ANALYTICS_URL
+✔ Building build context (62ms)
+- Creating admin
+✔ Creating admin (407ms)
+✔ Loading Strapi (1486ms)
+- Generating types
+✔ Generating types (150ms)
+- Compiling TS
+- Cleaning dist dir /home/rinas/Desktop/wincore/thesafespaceglobal/backend/dist
+✔ Cleaning dist dir (32ms)
+✔ Compiling TS (3073ms)
+
+ Project information
+
+[90m┌────────────────────[39m[90m┬──────────────────────────────────────────────────┐[39m
+[90m│[39m Time               [90m│[39m Thu Apr 02 2026 15:34:43 GMT+0530 (India Standa… [90m│[39m
+[90m│[39m Launched in        [90m│[39m 4717 ms                                          [90m│[39m
+[90m│[39m Environment        [90m│[39m development                                      [90m│[39m
+[90m│[39m Process PID        [90m│[39m 15455                                            [90m│[39m
+[90m│[39m Version            [90m│[39m 5.41.1 (node v25.8.0)                            [90m│[39m
+[90m│[39m Edition            [90m│[39m Community                                        [90m│[39m
+[90m│[39m Database           [90m│[39m sqlite                                           [90m│[39m
+[90m│[39m Database name      [90m│[39m .tmp/data.db                                     [90m│[39m
+[90m└────────────────────[39m[90m┴──────────────────────────────────────────────────┘[39m
+
+ Actions available
+
+One more thing...
+Create your first administrator 💻 by going to the administration panel at:
+
+[90m┌─────────────────────────────┐[39m
+[90m│[39m http://localhost:1337/admin [90m│[39m
+[90m└─────────────────────────────┘[39m
+
+[2026-04-02 15:34:43.883] [32minfo[39m: Strapi started successfully
+[2026-04-02 15:34:43.976] [32mhttp[39m: GET /admin (47 ms) 200
+[2026-04-02 15:34:44.015] [32minfo[39m: File changed: /home/rinas/Desktop/wincore/thesafespaceglobal/backend/strapi_log2.txt
+- Cleaning dist dir /home/rinas/Desktop/wincore/thesafespaceglobal/backend/dist
+✔ Cleaning dist dir (14ms)
+[2026-04-02 15:34:45.659] [32minfo[39m: Shutting down Strapi
+[2026-04-02 15:34:45.662] [32minfo[39m: Strapi has been shut down
+- Loading Strapi
+[2026-04-02 15:34:49.219] [33mwarn[39m: admin.auth.options.expiresIn is deprecated and will be removed in Strapi 6. Please configure admin.auth.sessions.maxRefreshTokenLifespan and admin.auth.sessions.maxSessionLifespan.
+- Building build context
+
+[INFO] Including the following ENV variables as part of the JS bundle:
+    - ADMIN_PATH
+    - STRAPI_ADMIN_BACKEND_URL
+    - STRAPI_TELEMETRY_DISABLED
+    - STRAPI_AI_URL
+    - STRAPI_ANALYTICS_URL
+✔ Building build context (65ms)
+- Creating admin
+✔ Creating admin (514ms)
+✔ Loading Strapi (1451ms)
+- Generating types
+✔ Generating types (171ms)
+- Compiling TS
+- Cleaning dist dir /home/rinas/Desktop/wincore/thesafespaceglobal/backend/dist
+✔ Cleaning dist dir (17ms)
+✔ Compiling TS (1781ms)
+
+ Project information
+
+[90m┌────────────────────[39m[90m┬──────────────────────────────────────────────────┐[39m
+[90m│[39m Time               [90m│[39m Thu Apr 02 2026 15:34:51 GMT+0530 (India Standa… [90m│[39m
+[90m│[39m Launched in        [90m│[39m 3408 ms                                          [90m│[39m
+[90m│[39m Environment        [90m│[39m development                                      [90m│[39m
+[90m│[39m Process PID        [90m│[39m 15813                                            [90m│[39m
+[90m│[39m Version            [90m│[39m 5.41.1 (node v25.8.0)                            [90m│[39m
+[90m│[39m Edition            [90m│[39m Community                                        [90m│[39m
+[90m│[39m Database           [90m│[39m sqlite                                           [90m│[39m
+[90m│[39m Database name      [90m│[39m .tmp/data.db                                     [90m│[39m
+[90m└────────────────────[39m[90m┴──────────────────────────────────────────────────┘[39m
+
+ Actions available
+
+One more thing...
+Create your first administrator 💻 by going to the administration panel at:
+
+[90m┌─────────────────────────────┐[39m
+[90m│[39m http://localhost:1337/admin [90m│[39m
+[90m└─────────────────────────────┘[39m
+
+[2026-04-02 15:34:51.851] [32minfo[39m: Strapi started successfully
+[2026-04-02 15:34:52.063] [32mhttp[39m: GET /admin (62 ms) 200
+[2026-04-02 15:34:52.074] [32minfo[39m: File changed: /home/rinas/Desktop/wincore/thesafespaceglobal/backend/strapi_log2.txt
+- Cleaning dist dir /home/rinas/Desktop/wincore/thesafespaceglobal/backend/dist
+✔ Cleaning dist dir (22ms)
+[2026-04-02 15:34:53.820] [32mhttp[39m: GET /admin (5 ms) 200
+[2026-04-02 15:34:53.823] [32minfo[39m: File changed: /home/rinas/Desktop/wincore/thesafespaceglobal/backend/strapi_log2.txt
+[2026-04-02 15:34:53.972] [32minfo[39m: Shutting down Strapi
+[2026-04-02 15:34:53.983] [32minfo[39m: Strapi has been shut down
+- Loading Strapi
+[2026-04-02 15:34:56.789] [33mwarn[39m: admin.auth.options.expiresIn is deprecated and will be removed in Strapi 6. Please configure admin.auth.sessions.maxRefreshTokenLifespan and admin.auth.sessions.maxSessionLifespan.
+- Building build context
+
+[INFO] Including the following ENV variables as part of the JS bundle:
+    - ADMIN_PATH
+    - STRAPI_ADMIN_BACKEND_URL
+    - STRAPI_TELEMETRY_DISABLED
+    - STRAPI_AI_URL
+    - STRAPI_ANALYTICS_URL
+✔ Building build context (73ms)
+- Creating admin
+✔ Creating admin (463ms)
+✔ Loading Strapi (1498ms)
+- Generating types
+✔ Generating types (307ms)
+- Compiling TS
+- Cleaning dist dir /home/rinas/Desktop/wincore/thesafespaceglobal/backend/dist
+✔ Cleaning dist dir (22ms)
+✔ Compiling TS (2136ms)
+
+ Project information
+
+[90m┌────────────────────[39m[90m┬──────────────────────────────────────────────────┐[39m
+[90m│[39m Time               [90m│[39m Thu Apr 02 2026 15:34:59 GMT+0530 (India Standa… [90m│[39m
+[90m│[39m Launched in        [90m│[39m 3948 ms                                          [90m│[39m
+[90m│[39m Environment        [90m│[39m development                                      [90m│[39m
+[90m│[39m Process PID        [90m│[39m 15935                                            [90m│[39m
+[90m│[39m Version            [90m│[39m 5.41.1 (node v25.8.0)                            [90m│[39m
+[90m│[39m Edition            [90m│[39m Community                                        [90m│[39m
+[90m│[39m Database           [90m│[39m sqlite                                           [90m│[39m
+[90m│[39m Database name      [90m│[39m .tmp/data.db                                     [90m│[39m
+[90m└────────────────────[39m[90m┴──────────────────────────────────────────────────┘[39m
+
+ Actions available
+
+One more thing...
+Create your first administrator 💻 by going to the administration panel at:
+
+[90m┌─────────────────────────────┐[39m
+[90m│[39m http://localhost:1337/admin [90m│[39m
+[90m└─────────────────────────────┘[39m
+
+[2026-04-02 15:34:59.892] [32minfo[39m: Strapi started successfully
+[2026-04-02 15:35:00.119] [32mhttp[39m: GET /admin (51 ms) 200
+[2026-04-02 15:35:00.124] [32minfo[39m: File changed: /home/rinas/Desktop/wincore/thesafespaceglobal/backend/strapi_log2.txt
+- Cleaning dist dir /home/rinas/Desktop/wincore/thesafespaceglobal/backend/dist
+✔ Cleaning dist dir (10ms)
+[2026-04-02 15:35:01.916] [32minfo[39m: Shutting down Strapi
+[2026-04-02 15:35:01.920] [32minfo[39m: Strapi has been shut down
+- Loading Strapi
+[2026-04-02 15:35:04.680] [33mwarn[39m: admin.auth.options.expiresIn is deprecated and will be removed in Strapi 6. Please configure admin.auth.sessions.maxRefreshTokenLifespan and admin.auth.sessions.maxSessionLifespan.
+- Building build context
+
+[INFO] Including the following ENV variables as part of the JS bundle:
+    - ADMIN_PATH
+    - STRAPI_ADMIN_BACKEND_URL
+    - STRAPI_TELEMETRY_DISABLED
+    - STRAPI_AI_URL
+    - STRAPI_ANALYTICS_URL
+✔ Building build context (103ms)
+- Creating admin
+✔ Creating admin (449ms)
+✔ Loading Strapi (1899ms)
+- Generating types
+✔ Generating types (181ms)
+- Compiling TS
+- Cleaning dist dir /home/rinas/Desktop/wincore/thesafespaceglobal/backend/dist
+✔ Cleaning dist dir (17ms)
+✔ Compiling TS (2123ms)
+node:events:486
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write EPIPE
+    at target._send (node:internal/child_process:884:20)
+    at target.send (node:internal/child_process:759:19)
+    at sendHelper (node:internal/cluster/utils:28:15)
+    at send (node:internal/cluster/child:251:10)
+    at cluster._getServer (node:internal/cluster/child:105:3)
+    at listenInCluster (node:net:2080:11)
+    at node:net:2274:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Worker instance at:
+    at process.<anonymous> (node:internal/cluster/worker:33:12)
+    at process.emit (node:events:508:20)
+    at node:internal/child_process:888:39
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+
+Node.js v25.8.0

@@ -1,0 +1,10 @@
+
+> backend@0.1.0 dev
+> strapi develop
+
+- Cleaning dist dir /home/rinas/Desktop/wincore/thesafespaceglobal/backend/dist
+✔ Cleaning dist dir (4ms)
+- Loading Strapi
+[ERROR]  There seems to be an unexpected error, try again with --debug for more information 
+
+┌──────────────────────────────────────────────────────────────────────────────┐│                                                                              ││   SqliteError: unable to open database file                                  ││   at new Database (/home/rinas/Desktop/wincore/thesafespaceglobal/backend/   ││   node_modules/better-sqlite3/lib/database.js:69:26)                         ││   at Client_BetterSQLite3.acquireRawConnection                               ││   (/home/rinas/Desktop/wincore/thesafespaceglobal/backend/node_modules/kne   ││   x/lib/dialects/better-sqlite3/index.js:14:12)                              ││   at create (/home/rinas/Desktop/wincore/thesafespaceglobal/backend/node_m   ││   odules/knex/lib/client.js:262:39)                                          ││                                                                              │└──────────────────────────────────────────────────────────────────────────────┘

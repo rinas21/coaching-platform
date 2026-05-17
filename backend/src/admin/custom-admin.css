@@ -1,0 +1,70 @@
+/* Modern visual refresh for Strapi admin content forms */
+
+:root {
+  --ssg-bg-soft: #f6f7ff;
+  --ssg-surface: #ffffff;
+  --ssg-border: #e1e4f2;
+  --ssg-text: #271f45;
+  --ssg-muted: #6c638e;
+  --ssg-primary: #5f47d6;
+  --ssg-primary-soft: #efeaff;
+  --ssg-radius: 14px;
+  --ssg-shadow: 0 14px 34px -18px rgba(34, 20, 88, 0.35);
+}
+
+/* Workspace background and breathing room */
+main[role='main'] {
+  background: linear-gradient(180deg, #fbfbff 0%, #f4f5ff 100%);
+}
+
+/* Create/Edit entry heading block */
+main[role='main'] h1 {
+  color: var(--ssg-text);
+  letter-spacing: -0.01em;
+}
+
+/* Main form cards */
+form [data-strapi-field],
+form section[aria-labelledby],
+form [data-strapi-field] > div {
+  border-radius: var(--ssg-radius);
+}
+
+/* Inputs and rich editor containers */
+input,
+textarea,
+select,
+[contenteditable='true'] {
+  border-radius: 12px !important;
+}
+
+/* Field grouping cards (targets content manager blocks) */
+form > div,
+form section {
+  border-radius: var(--ssg-radius);
+}
+
+/* Generic card polish without breaking layout semantics */
+form section,
+main[role='main'] article {
+  box-shadow: var(--ssg-shadow);
+}
+
+/* Buttons */
+button[type='submit'],
+a[aria-label*='Save'],
+button[aria-label*='Save'] {
+  border-radius: 999px !important;
+}
+
+/* Blog-specific UX hint area for image placement */
+a[href*='api::blog-post.blog-post/create'] ~ *,
+body:has(a[href*='api::blog-post.blog-post/create']) main[role='main'] {
+  --button-primary-600: var(--ssg-primary);
+}
+
+/* Keep sidebar readable */
+nav[aria-label='Main navigation'] {
+  backdrop-filter: saturate(140%) blur(3px);
+}
+

@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Settings",
+    "description": "Global website branding, contact, and social links"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site_name": {
+      "type": "string",
+      "required": true,
+      "default": "The Safe Space Global"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "support_email": {
+      "type": "email"
+    },
+    "support_phone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "social_links": {
+      "type": "json"
+    },
+    "default_seo_title": {
+      "type": "string"
+    },
+    "default_seo_description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_blog_image_blocks",
+  "info": {
+    "displayName": "Image Block",
+    "description": "Inline image with caption and placement"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "caption": {
+      "type": "string"
+    },
+    "placement": {
+      "type": "enumeration",
+      "enum": [
+        "full",
+        "left",
+        "right"
+      ],
+      "default": "full"
+    }
+  }
+}
