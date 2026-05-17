@@ -61,22 +61,22 @@ function parseList(value?: string[] | string): string {
 
 export default async function TeamPage() {
   const TEAM_OVERRIDES: Record<string, { role?: string; name?: string; bio?: string }> = {
-    "AAMINA SAMEER": { name: "Aamina Sameer", role: "Special Needs Support & Community Programmes Lead" },
+    "AAMINA SAMEER": { name: "Aamina Sameer", role: "Executive Presence & Boardroom Dynamics Lead" },
     "ALIFA AMER": {
       name: "Alifa Amer",
-      role: "Creative Lead",
-      bio: "Alifa is Safe Space Junior's Creative Lead and one of the practice's founding interns. With her background spanning psychology and creative direction, she designs programmes that are as engaging as they are evidence-grounded."
+      role: "Creative & Brand Strategy Lead",
+      bio: "Alifa is The Safe Space Global's Creative Lead and one of the firm's founding fellows. With her background spanning organizational psychology and executive branding, she designs leadership masterclasses that are as engaging as they are high-impact."
     },
     "AQSA ATIQ": {
       name: "Aqsa Atiq",
-      role: "Head of Programmes",
-      bio: "Aqsa works with children and teens to build self-awareness, resilience, and the practical skills to handle what life brings — in school, at home, and beyond."
+      role: "Head of Executive Programmes",
+      bio: "Aqsa works with C-suite leaders and founders to build organizational self-awareness, leadership resilience, and the strategic skills to handle high-stakes corporate execution."
     },
-    "NABEEHA HUSSAIN": { name: "Nabeeha Hussain", role: "SEL Facilitator" },
+    "NABEEHA HUSSAIN": { name: "Nabeeha Hussain", role: "Executive Leadership Facilitator" },
     "ZAHRA IRAM MASUD": {
       name: "Zahra Iram Masud",
-      role: "Founder & Clinical Lead",
-      bio: "Her practice is guided by one principle: psychological safety is the foundation of everything else."
+      role: "Founder & Managing Director",
+      bio: "Her executive advisory is guided by one principle: organizational clarity and leadership alignment are the foundation of enterprise success."
     }
   };
   const result = await fetchStrapi<{ data?: TeamMember[] }>(
@@ -92,13 +92,13 @@ export default async function TeamPage() {
         <GsapReveal delay={0.1}>
           <div className="text-center mb-24">
             <span className="text-amber-brand font-bold tracking-widest uppercase text-xs mb-6 block underline decoration-amber-brand/30 underline-offset-8">
-              The people who do this work
+              The leaders who drive this work
             </span>
             <h1 className="text-5xl md:text-7xl font-playfair font-bold text-navy-brand mb-8 leading-tight">
-              The team behind the work.
+              The advisors behind the transformation.
             </h1>
             <p className="mx-auto max-w-3xl text-xl text-brown-brand/70 font-nunito leading-relaxed">
-              At The Safe Space, every team member is chosen for clinical competence and for something harder to define: the ability to be genuinely present with another person&apos;s pain. We work together, under structured supervision, toward outcomes that matter beyond the session.
+              At The Safe Space Global, every advisor is chosen for elite business acumen and for something harder to define: the ability to provide absolute strategic clarity in high-stakes corporate environments. We work together, under structured peer advisory, toward enterprise outcomes that matter beyond the boardroom.
             </p>
           </div>
         </GsapReveal>
@@ -141,7 +141,7 @@ export default async function TeamPage() {
         <GsapReveal delay={0.5} direction="up">
           <div className="text-center pt-10 border-t border-amber-brand/10">
             <p className="text-brown-brand/60 font-nunito italic text-lg max-w-2xl mx-auto leading-relaxed">
-              &quot;Every session we deliver is supervised, ethically grounded, and designed with the client&apos;s wellbeing as the only measure of success.&quot;
+              &quot;Every advisory session we deliver is peer-reviewed, strategically grounded, and designed with the client&apos;s enterprise scaling as the only measure of success.&quot;
             </p>
             <div className="mt-12 flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6">
               <Link href="/about" className="btn-outline w-full sm:w-auto flex justify-center">

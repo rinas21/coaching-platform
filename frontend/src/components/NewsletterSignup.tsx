@@ -25,10 +25,10 @@ export default function NewsletterSignup() {
       <div className="flex flex-col lg:flex-row items-center justify-between gap-8 md:gap-12">
         <div className="w-full max-w-xl text-center lg:text-left">
           <h3 className="text-3xl md:text-4xl font-playfair font-bold text-white mb-4">
-            Join the Circle.
+            Join the Executive Circle.
           </h3>
           <p className="text-white/60 font-nunito text-base md:text-lg">
-            Receive monthly reflections on neuroscience, trauma informed care, and the art of human development. No spam, just heart.
+            Receive monthly strategic insights on executive leadership, boardroom dynamics, and enterprise scaling. No spam, just high-impact strategy.
           </p>
         </div>
 

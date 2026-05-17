@@ -12,19 +12,19 @@ export default function AboutPage() {
         </div>
         <div className="px-6">
           <span className="relative z-10 text-amber-brand tracking-widest lowercase text-xs mb-6 block underline decoration-amber-brand/30 underline-offset-8">
-            Beyond behaviour. Beyond coping.
+            Beyond basic management. Beyond ordinary growth.
           </span>
           <GsapSplitText
-            text="The skills that change how you move through the world."
+            text="The leadership strategies that change how you operate and lead."
             elementType="h1"
             className="relative z-10 text-4xl max-w-4xl md:text-7xl font-playfair font-bold text-white mb-8 leading-tight mx-auto"
           />
 
           <p className="relative z-10 mt-10 mx-auto max-w-3xl text-lg sm:text-xl text-white font-nunito leading-relaxed">
-            Most people who find us are not looking for a label or a diagnosis. They are looking for a way through.
+            Most leaders who find us are not looking for generic advice. They are looking for strategic breakthroughs.
           </p>
           <p className="relative mt-10 z-10 mx-auto max-w-3xl text-lg sm:text-xl text-white font-nunito leading-relaxed">
-            The Safe Space is a trauma informed psychology practice based in Sri Lanka, working with individuals, families, and schools across the world.
+            The Safe Space Global is a premier executive and business coaching firm based in Sri Lanka, working with leaders, entrepreneurs, and organizations across the world.
           </p>
         </div>
       </div>
@@ -36,20 +36,20 @@ export default function AboutPage() {
               Who We Are
             </span>
             <GsapSplitText
-              text="Every struggle has a pattern beneath it."
+              text="Every business challenge has a strategic solution beneath it."
               elementType="h2"
               className="text-4xl font-playfair font-bold text-navy-brand mb-8 leading-tight"
             />
             <div className="space-y-6 text-lg text-brown-brand/70 font-nunito leading-relaxed">
               <p>
-                Our story begins with a recognition that the same struggles appear across individuals, families, and environments diﬃculties with
-                regulation, communication, confidence, and connection. Over time, it became clear these were not isolated challenges. They were
-                patterns. Often intergenerational. Often invisible. Always shapeable.
+                Our story begins with a recognition that the same growth bottlenecks appear across leaders, teams, and enterprises: difficulties with
+                organizational alignment, strategic communication, execution scaling, and leadership presence. Over time, it became clear these were not isolated challenges. They were
+                patterns. Often systemic. Often invisible. Always shapeable.
               </p>
               <p>
-                At The Safe Space, we do not just support people in the present. We help them recognise, understand, and shift the patterns that influence how they
-                respond to themselves, others, and the world around them. When those patterns begin to change, the impact extends beyond the
-                individual into relationships, environments, and future generations.
+                At The Safe Space Global, we do not just support leaders in the present. We help them recognize, understand, and optimize the strategic patterns that influence how they
+                lead their teams and scale their enterprises. When those patterns begin to change, the impact extends beyond the
+                individual into teams, entire organizations, and future industry leadership.
               </p>
             </div>
           </GsapReveal>
@@ -80,7 +80,7 @@ export default function AboutPage() {
             </h3>
             <hr className="border-navy-brand/10 mb-8" />
             <p className="text-lg md:text-xl text-navy-brand/80 font-playfair italic mb-12 leading-relaxed">
-              We provide psychological support across the full spectrum of mental health presentations, including:
+              We provide high-impact coaching across the full spectrum of professional and organizational growth, including:
             </p>
 
             <div className="flex justify-center gap-6 mb-12 text-navy-brand/20">
@@ -91,12 +91,12 @@ export default function AboutPage() {
 
             <ul className="space-y-6 mb-16 max-w-md mx-auto lg:mx-0">
               {[
-                "Anxiety and mood difficulties",
-                "Complex trauma and PTSD",
-                "Emotional dysregulation",
-                "Relationship and communication difficulties",
-                "Burnout and occupational stress",
-                "Child and adolescent development"
+                "C-suite executive leadership",
+                "Business scaling & strategy",
+                "High-performance team alignment",
+                "Executive career advancement",
+                "Workplace productivity & stress mastery",
+                "Organizational culture transformation"
               ].map((item) => (
                 <li key={item} className="flex gap-4 items-start text-[11px] md:text-xs font-bold text-navy-brand/80 uppercase tracking-widest leading-relaxed">
                   <span className="text-amber-brand mt-1.5 text-[8px] md:text-[10px]">●</span>
@@ -107,7 +107,7 @@ export default function AboutPage() {
 
             <hr className="border-navy-brand/10 mb-8" />
             <p className="text-lg md:text-xl text-navy-brand/80 font-playfair italic leading-relaxed">
-              All work is grounded in stabilisation, regulation, and capacity building paced, structured, and aligned with each individual&apos;s level of readiness.
+              All work is grounded in strategic clarity, operational alignment, and leadership capacity building—paced, structured, and aligned with your enterprise goals.
             </p>
           </GsapReveal>
 
@@ -122,19 +122,19 @@ export default function AboutPage() {
               </span>
             </div>
             <h3 className="text-4xl md:text-5xl font-playfair text-white mb-8 italic">
-              Clinical Approach
+              Strategic Approach
             </h3>
             <hr className="border-white/10 mb-8" />
             <p className="text-lg md:text-xl text-white/80 font-playfair italic mb-12 leading-relaxed">
-              Our work integrates evidence based, neuroscience-informed, and somatic approaches:
+              Our work integrates evidence-based business frameworks, advanced leadership methodologies, and high-performance mindset coaching:
             </p>
 
             <ul className="space-y-6 mb-16 max-w-md mx-auto lg:mx-0">
               {[
-                "Cognitive Behavioural Therapy helping you recognise and shift thought patterns that keep you stuck",
-                "Working with your body's stress responses, not just your thoughts",
-                "Processing difficult experiences at the source, not just managing the symptoms",
-                "Understanding how early relationships shape how you connect today"
+                "Strategic Execution Frameworks helping you align vision with measurable results",
+                "Executive Presence Mastery working with your communication and leadership impact",
+                "Organizational Alignment processing operational bottlenecks at the source",
+                "High-Performance Mindset understanding how decision-making patterns shape your success"
               ].map((item) => (
                 <li key={item} className="flex gap-4 items-start text-[11px] md:text-xs font-bold text-white uppercase tracking-widest leading-relaxed">
                   <span className="text-amber-brand mt-1.5 text-[8px] md:text-[10px]">●</span>
@@ -150,19 +150,18 @@ export default function AboutPage() {
             <ul className="space-y-6">
               <li className="flex gap-4 items-start text-sm text-white/70 font-nunito leading-relaxed">
                 <span className="text-amber-brand mt-1.5 text-[10px]">●</span>
-                <span><strong className="font-semibold text-white">Physiological regulation</strong> nervous system states, sensory processing, interoceptive awareness</span>
+                <span><strong className="font-semibold text-white">Strategic decision-making</strong> business models, market positioning, competitive advantage</span>
               </li>
               <li className="flex gap-4 items-start text-sm text-white/70 font-nunito leading-relaxed">
                 <span className="text-amber-brand mt-1.5 text-[10px]">●</span>
-                <span><strong className="font-semibold text-white">Cognitive and behavioural skills</strong> attention, planning, emotional awareness, decision-making</span>
+                <span><strong className="font-semibold text-white">Leadership communication</strong> executive presence, stakeholder management, boardroom influence</span>
               </li>
               <li className="flex gap-4 items-start text-sm text-white/70 font-nunito leading-relaxed">
                 <span className="text-amber-brand mt-1.5 text-[10px]">●</span>
-                <span><strong className="font-semibold text-white">Experiential and somatic processing</strong> body based cues, movement, grounding, and felt experience</span>
+                <span><strong className="font-semibold text-white">Operational execution</strong> scaling processes, team alignment, accountability frameworks</span>
               </li>
             </ul>
-            <p className="text-lg md:text-xl text-white/80 font-playfair italic leading-relaxed mt-10">This integrated approach allows us to work not only with thoughts and behaviours, but with the body-based patterns that so often
-              underlie them particularly in trauma related and complex presentations.</p>
+            <p className="text-lg md:text-xl text-white/80 font-playfair italic leading-relaxed mt-10">This integrated approach allows us to work not only with immediate business challenges, but with the systemic organizational patterns that drive long-term enterprise success.</p>
           </GsapReveal>
         </div>
 
@@ -175,19 +174,13 @@ export default function AboutPage() {
               </span>
               <div className="space-y-8 text-xl md:text-2xl font-playfair text-navy-brand leading-relaxed italic text-center">
                 <p>
-                  &quot;The work at The Safe Space did not begin with a model or
-                  a programme. It began with a pattern.&quot;
+                  &quot;The work at The Safe Space Global did not begin with generic theories. It began with a commitment to strategic excellence.&quot;
                 </p>
                 <p>
-                  &quot;Across individuals, families, and environments, the same
-                  struggles appeared: difficulties with regulation,
-                  communication, and connection. This shaped everything.&quot;
+                  &quot;Across leaders, teams, and enterprises, the same growth bottlenecks appeared: difficulties with organizational alignment, strategic communication, and execution scaling.&quot;
                 </p>
                 <p>
-                  &quot;Meaningful change occurs when individuals feel safe
-                  enough to engage, supported enough to try, and equipped with
-                  the skills to respond differently. Our role is to create those
-                  conditions.&quot;
+                  &quot;Meaningful business growth occurs when leaders gain strategic clarity, align their executive teams, and commit to bold execution. Our role is to create those conditions.&quot;
                 </p>
               </div>
               <div className="mt-16 flex flex-col items-center">
@@ -196,7 +189,7 @@ export default function AboutPage() {
                   Zahra Iram Masud
                 </p>
                 <p className="text-[10px] font-bold text-amber-brand uppercase tracking-widest mt-1">
-                  Founder & Clinical Lead
+                  Founder & Master Executive Coach
                 </p>
               </div>
             </div>
@@ -209,21 +202,21 @@ export default function AboutPage() {
             <div className="absolute top-0 right-0 w-64 h-64 bg-amber-brand/5 rounded-full blur-3xl -mr-32 -mt-32" />
             <div className="max-w-4xl mx-auto relative z-10">
               <span className="text-amber-brand font-bold text-xs uppercase tracking-[0.2em] mb-4 block text-center">
-                Child & Adolescent Care
+                Talent & Career Development
               </span>
               <h3 className="text-4xl md:text-5xl font-playfair font-bold text-navy-brand mb-8 text-center">
-                Developmental & Child Focused Work
+                Emerging Leaders & Professional Development
               </h3>
               <p className="text-lg md:text-xl text-brown-brand/80 font-playfair italic leading-relaxed mb-12 text-center">
-                For children and adolescents, our approach is developmentally adapted and play-informed. Younger clients are supported through:
+                For ambitious professionals and emerging leaders, our approach is structured, career-focused, and highly actionable. Clients are supported through:
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 mb-12">
                 {[
-                  "Play based and activity based interventions",
-                  "Creative modalities art, storytelling, role play",
-                  "Guided interaction and real time coaching",
-                  "Executive functioning tasks embedded within play"
+                  "Targeted leadership skill acquisition",
+                  "Career trajectory mapping and promotion strategy",
+                  "Advanced communication and executive presence training",
+                  "Strategic decision-making frameworks embedded in daily workflow"
                 ].map((item) => (
                   <div key={item} className="bg-white p-6 rounded-2xl shadow-sm border border-amber-brand/10 flex gap-4 items-start hover:shadow-md transition-shadow">
                     <span className="text-amber-brand mt-1.5 text-[10px]">●</span>
@@ -234,11 +227,11 @@ export default function AboutPage() {
 
               <div className="space-y-6 text-lg text-brown-brand/80 font-nunito leading-relaxed p-8 md:p-10 bg-white/60 backdrop-blur-sm rounded-3xl border border-amber-brand/10 text-center">
                 <p>
-                  These methods allow children to safely express internal experiences while actively building skills in emotional regulation, communication, attention, and cognitive flexibility.
+                  These methods allow emerging leaders to accelerate their professional growth while actively building skills in strategic execution, team leadership, and cognitive flexibility.
                 </p>
                 <hr className="border-amber-brand/10 w-24 mx-auto" />
                 <p>
-                  <strong className="text-navy-brand">All interventions are clinically guided and intentionally designed.</strong> Play is used as a medium for targeted skill development never unstructured activity.
+                  <strong className="text-navy-brand">All coaching programs are strategically guided and intentionally designed.</strong> Every session is used as a springboard for measurable professional advancement.
                 </p>
               </div>
             </div>
@@ -262,22 +255,21 @@ export default function AboutPage() {
               Real World Application
             </h3>
             <p className="text-lg text-brown-brand/70 font-nunito leading-relaxed mb-10">
-              Progress that stays in the therapy room is not enough. Our work is
-              designed to generalise across home environments, school settings,
-              peer interactions, and workplace functioning.
+              Progress that stays in the coaching session is not enough. Our work is
+              designed to generate measurable ROI across boardroom discussions, executive decisions, team leadership, and enterprise scaling.
             </p>
             <div className="p-8 bg-sage-brand/5 rounded-3xl border border-sage-brand/10">
               <h4 className="text-xs font-bold text-sage-brand uppercase tracking-widest mb-4">
                 Our Vision
               </h4>
               <p className="text-sm text-brown-brand/70 font-nunito leading-relaxed mb-4">
-                To contribute to a model of mental health and development that is:
+                To contribute to a model of professional leadership and business growth that is:
               </p>
               <ul className="space-y-3 mb-6">
                 {[
-                  "Preventative as well as responsive",
-                  "Skills-based and function-oriented",
-                  "Accessible, structured, and scalable"
+                  "Strategic as well as actionable",
+                  "Results-based and growth-oriented",
+                  "Premium, structured, and scalable"
                 ].map((item) => (
                   <li key={item} className="flex gap-3 items-start text-sm text-brown-brand/70 font-nunito leading-relaxed">
                     <span className="text-sage-brand mt-1.5 text-[10px]">●</span>
@@ -286,7 +278,7 @@ export default function AboutPage() {
                 ))}
               </ul>
               <p className="text-sm text-brown-brand/70 font-nunito leading-relaxed pt-6 border-t border-sage-brand/10">
-                Our vision is to close the gap between psychological knowledge and real life: offering clinical therapy, creative therapies, and evidence-led professional training, all under one roof.
+                Our vision is to close the gap between business strategy and daily execution: offering executive coaching, business advisory, and elite professional training, all under one roof.
               </p>
             </div>
           </GsapReveal>
@@ -297,7 +289,7 @@ export default function AboutPage() {
             Ready to take the next step?
           </h3>
           <p className="text-lg text-brown-brand/70 font-nunito leading-relaxed mb-10 max-w-2xl mx-auto">
-            Whether you are looking for support for yourself, your child, or your school we are here to help you find the right pathway.
+            Whether you are looking for executive coaching for yourself, strategic alignment for your team, or growth advisory for your business, we are here to help you find the right pathway.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/booking" className="btn-primary">

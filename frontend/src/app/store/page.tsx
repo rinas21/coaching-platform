@@ -26,7 +26,7 @@ const KIND_META: Record<
   Exclude<StoreKind, "all">,
   { label: string; color: string; bg: string }
 > = {
-  therapy: { label: "Therapy", color: "#6d28d9", bg: "#ede9fe" },
+  therapy: { label: "Coaching", color: "#6d28d9", bg: "#ede9fe" },
   course: { label: "Course", color: "#0369a1", bg: "#e0f2fe" },
   material: { label: "Material", color: "#065f46", bg: "#d1fae5" },
   bundle: { label: "Bundle", color: "#92400e", bg: "#fef3c7" },
@@ -148,7 +148,7 @@ function StoreCard({
         </Link>
         <p className="text-[0.95rem] text-gray-500 leading-relaxed line-clamp-2 font-nunito">
           {item.description ||
-            "A curated wellness resource from our space to yours."}
+            "A curated executive resource from our boardroom to yours."}
         </p>
 
         <div className="flex items-center justify-between mt-4 font-nunito">
@@ -242,15 +242,15 @@ export default function StorePage() {
           <div className="grid lg:grid-cols-2 gap-20 items-center">
             <div>
               <span className="text-amber-brand font-bold tracking-widest uppercase text-xs mb-6 block px-4 py-1.5 rounded-full bg-amber-brand/10 inline-block">
-                Wellness Store
+                Executive Store
               </span>
               <h1 className="text-5xl md:text-7xl font-playfair font-bold text-cream-brand mb-8 leading-[1.1]">
                 Curated Tools <br />
-                For Healing.
+                For Enterprise Growth.
               </h1>
               <p className="text-xl text-cream-brand/70 font-nunito mb-10 max-w-lg leading-relaxed">
-                Explore therapist-curated resources, exercises, and practical
-                materials that support emotional wellbeing and everyday growth.
+                Explore executive-curated resources, strategic frameworks, and practical
+                materials that support enterprise scaling, leadership presence, and professional growth.
               </p>
               <div className="flex flex-col sm:flex-row gap-6">
                 <Link
@@ -364,7 +364,7 @@ export default function StorePage() {
               </h3>
               <p className="text-brown-brand/60 font-nunito mb-10">
                 We couldn&apos;t find exactly that, but our digital shelves are
-                constantly being restocked.
+                constantly being restocked with premium business growth resources.
               </p>
               <button
                 type="button"
@@ -384,13 +384,13 @@ export default function StorePage() {
               <div className="p-12 bg-white rounded-[3.5rem] border border-amber-brand/10 shadow-sm relative overflow-hidden group">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-amber-brand/5 rounded-full blur-2xl -mr-16 -mt-16 group-hover:bg-amber-brand/10 transition-colors" />
                 <h3 className="text-2xl font-playfair font-bold text-navy-brand mb-6">
-                  TSSG Merch
+                  TSSG Executive Collection
                 </h3>
                 <p className="text-sm text-brown-brand/60 font-nunito leading-relaxed mb-8">
-                  Wear what matters. T-shirts, tote bags, and journals featuring
-                  original designs rooted in psychology and mental health
-                  awareness. No jargon. No clichés. Just meaningful, wearable
-                  reminders.
+                  Carry elite professionalism. Premium notebooks, executive leather
+                  folios, and structured planners featuring original designs rooted in
+                  high-performance leadership and business mastery. No clichés. Just meaningful,
+                  professional utility.
                 </p>
                 <span className="text-[10px] font-bold text-amber-brand uppercase tracking-widest border border-amber-brand/20 px-4 py-2 rounded-full">
                   In Development
@@ -401,12 +401,12 @@ export default function StorePage() {
               <div className="p-12 bg-white rounded-[3.5rem] border border-amber-brand/10 shadow-sm relative overflow-hidden group">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-sage-brand/5 rounded-full blur-2xl -mr-16 -mt-16 group-hover:bg-sage-brand/10 transition-colors" />
                 <h3 className="text-2xl font-playfair font-bold text-navy-brand mb-6">
-                  Journals & Workbooks
+                  Strategic Planners & Workbooks
                 </h3>
                 <p className="text-sm text-brown-brand/60 font-nunito leading-relaxed mb-8">
-                  For the inner work. Guided journals rooted in emotional
-                  literacy, self-reflection, and nervous system awareness. Tools
-                  you can use in your own time, at your own pace.
+                  For elite execution. Guided planners rooted in organizational alignment,
+                  quarterly milestone tracking, and executive energy management. Tools
+                  you can use to scale your business at your own pace.
                 </p>
                 <span className="text-[10px] font-bold text-sage-brand uppercase tracking-widest border border-sage-brand/20 px-4 py-2 rounded-full">
                   Coming Soon
@@ -439,10 +439,10 @@ export default function StorePage() {
             </div>
             <div>
               <h4 className="font-playfair font-bold text-navy-brand text-lg mb-3">
-                Therapeutic Quality
+                Executive Quality
               </h4>
               <p className="text-sm text-brown-brand/60 font-nunito">
-                Curated by our team of clinical psychologists.
+                Curated by our team of Master Certified Coaches and C-suite advisors.
               </p>
             </div>
           </div>

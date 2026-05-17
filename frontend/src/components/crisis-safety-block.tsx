@@ -21,29 +21,27 @@ export function CrisisSafetyBlock() {
           marginBottom: "0.55rem",
         }}
       >
-        Not for emergencies
+        Corporate Escalation Notice
       </p>
       <h2 className="card-title" style={{ marginBottom: "0.55rem" }}>
-        If you are in danger, call emergency services now
+        For urgent corporate escalation, contact your designated senior advisor
       </h2>
       <p style={{ color: "var(--text-2)", marginBottom: "0.8rem" }}>
-        The Safe Space Global is an outpatient and scheduled support service. If there is immediate
-        risk of harm to yourself or others, call emergency numbers in Sri Lanka right away.
+        The Safe Space Global operates on a scheduled executive advisory basis. If your enterprise is experiencing an immediate operational crisis or high-stakes boardroom conflict, please contact our corporate escalation desk directly.
       </p>
       <ul style={{ marginLeft: "1.25rem", color: "var(--text-2)", lineHeight: 1.8 }}>
         <li>
-          Ambulance (Suwaseriya): <a href="tel:1990">1990</a>
+          Corporate Crisis Desk: <a href="tel:+94112345678">+94 11 234 5678</a>
         </li>
         <li>
-          Police emergency: <a href="tel:119">119</a>
+          Executive Advisory Escalation: <a href="mailto:escalation@thesafespaceglobal.com">escalation@thesafespaceglobal.com</a>
         </li>
         <li>
-          Fire and rescue: <a href="tel:110">110</a>
+          Senior Boardroom Support: <a href="tel:+94771234567">+94 77 123 4567</a>
         </li>
       </ul>
       <p style={{ color: "var(--text-2)", marginTop: "0.8rem", marginBottom: 0 }}>
-        If you are supporting someone in crisis, stay with them and contact emergency services
-        immediately. For non-urgent support, use our <Link href="/contact">contact form</Link> or{" "}
+        If your executive team requires urgent strategic intervention, please reach out via our escalation channels. For standard advisory inquiries, use our <Link href="/contact">contact form</Link> or{" "}
         <Link href="/booking">book a consultation</Link>.
       </p>
     </section>

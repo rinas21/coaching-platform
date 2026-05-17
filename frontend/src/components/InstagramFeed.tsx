@@ -46,7 +46,7 @@ const STATIC_FALLBACK_POSTS: IgPost[] = [
     likes: "320",
     comments: "42",
     permalink: SITE_INSTAGRAM_PROFILE_URL,
-    caption: "Building blocks of resilience for children and families. A trauma-informed approach.",
+    caption: "Building blocks of executive resilience for leaders and organizations. A high-performance approach.",
   },
 ];
 

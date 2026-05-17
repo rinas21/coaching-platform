@@ -28,39 +28,39 @@ function isPathActive(
 
 const serviceAudienceGroups = [
   {
-    title: "Children",
+    title: "Executive Leadership",
     href: "/services#children",
-    items: ["BBR", "Loud and Clear", "Art Therapy"],
+    items: ["BBR", "Executive Presence", "Decision Mastery"],
   },
   {
-    title: "Teenagers",
+    title: "Business Scaling",
     href: "/services#teenagers",
-    items: ["Mind the Clock", "Bold & Brave"],
+    items: ["Scale Strategy", "Operational Excellence"],
   },
   {
-    title: "Adults",
+    title: "Career Advancement",
     href: "/services#adults",
-    items: ["Psychotherapy", "Burnout Support"],
+    items: ["Trajectory Mapping", "Leadership Acceleration"],
   },
   {
-    title: "Schools",
+    title: "Corporate Workshops",
     href: "/services#schools",
-    items: ["BBR School Edition", "Teacher Training"],
+    items: ["BBR Corporate", "Management Capacity"],
   },
   {
-    title: "Organisations",
+    title: "Workplace Productivity",
     href: "/services#organisations",
-    items: ["Corporate Success", "Wellbeing"],
+    items: ["Peak Performance", "Stress Mastery"],
   },
   {
-    title: "Communities",
+    title: "Peer Advisory",
     href: "/services#communities",
-    items: ["Lift Others as You Rise"],
+    items: ["Lift Others Mastermind", "Executive Networking"],
   },
   {
-    title: "Parents",
+    title: "Life Coaching",
     href: "/services#parents",
-    items: ["Psycho-education", "Workshops"],
+    items: ["Personal Vision", "Life Strategy"],
   },
 ];
 
@@ -390,8 +390,7 @@ function Navbar() {
                 Our Services
               </h3>
               <p className="text-brown-brand/70 font-nunito leading-relaxed">
-                Evidence-based psychological care tailored for every stage of
-                life.
+                Premium executive coaching and business strategy tailored for enterprise success.
               </p>
             </div>
             <div className="col-span-8 p-12 grid grid-cols-3 gap-8">

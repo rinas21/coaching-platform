@@ -23,141 +23,141 @@ export default function ServicesPage() {
   const serviceCategories = [
     {
       id: "children",
-      audience: "For Children (Ages 5–12)",
-      categoryDesc: "Play-based and clinically guided sessions to help children regulate emotions, build resilience, and thrive at home and school. Includes our signature BBR curriculum.",
+      audience: "Executive Leadership & C-Suite Coaching",
+      categoryDesc: "High-level strategic coaching for C-suite leaders and executives to maximize decision-making, leadership presence, and organizational impact. Includes our signature BBR framework.",
       categoryCtaLink: "/contact",
       programmes: [
         {
-          title: "Building Blocks of Resilience (BBR)",
-          tag: "Resilience Building Programme | Group & 1:1 Sessions",
-          desc: "Our signature programme. BBR helps children aged 5 – 12 understand their feelings and build the skills to handle everyday challenges. Grounded in neuroscience and delivered through age-appropriate, engaging methods, this is emotional literacy at its most foundational.",
+          title: "Building Business Resilience (BBR)",
+          tag: "Executive Leadership Framework | 1:1 & Boardroom Sessions",
+          desc: "Our signature executive program. BBR helps C-suite leaders and ambitious executives navigate market volatility, optimize team performance, and scale operations sustainably. Grounded in proven business strategy and delivered through high-impact executive advisory.",
         },
         {
-          title: "Loud and Clear!",
-          tag: "Communication Skills Programme | Group Sessions",
-          desc: "Designed for children aged 5 – 12, this programme helps young people find their voice speaking up, building confidence, and expressing themselves clearly and authentically.",
+          title: "Executive Presence & Influence",
+          tag: "Leadership Communication | 1:1 Coaching",
+          desc: "Designed for senior leaders, this program focuses on mastering executive communication, boardroom authority, and stakeholder management to lead with absolute confidence.",
         },
         {
-          title: "Art and Emotions",
-          tag: "Art Therapy | Group Sessions",
-          desc: "Some feelings don't have words yet. Through art, children are given a safe and creative space to express what they carry inside. A gentle, powerful entry point for emotional exploration and processing.",
+          title: "Strategic Decision Mastery",
+          tag: "Strategic Advisory | C-Suite Sessions",
+          desc: "Navigate complex business challenges with clarity. We provide structured frameworks for risk assessment, competitive positioning, and high-stakes executive decision-making.",
         },
         {
-          title: "Social-Emotional Learning Sessions",
-          tag: "Play-Based Executive Functioning & Creative Therapy | Structured 1:1 Sessions",
-          desc: "Structured 1:1 support for emotional regulation, behaviour, focus, and routines delivered through executive functioning tools and creative, play-based methods. Skills are built from the inside out.",
+          title: "Executive Alignment & Execution",
+          tag: "High-Performance Execution | Structured 1:1 Sessions",
+          desc: "Structured 1:1 support to align personal leadership vision with quarterly corporate execution goals. Build operational excellence from the inside out.",
         },
       ],
-      image: "/assets/images/children.png",
+      image: "/assets/images/vision.png",
     },
     {
       id: "teenagers",
-      audience: "For Teenagers (Ages 13 – 18)",
-      categoryDesc: "Individual therapy and structured skill building for teens facing anxiety, stress, identity questions, or the pressures of adolescent life.",
+      audience: "Business Scaling & Entrepreneurship",
+      categoryDesc: "Tailored strategies for entrepreneurs and business owners to scale operations, optimize team performance, and accelerate sustainable growth.",
       categoryCtaLink: "/contact",
       programmes: [
         {
-          title: "Loud and Clear!",
-          tag: "Communication Skills Programme | Group Sessions",
-          desc: "The teenage edition of our communication programme supports adolescents aged 13 – 16 in building confidence, assertiveness, and self expression.",
+          title: "Scale & Expand Strategy",
+          tag: "Business Growth Program | Group & 1:1 Sessions",
+          desc: "A comprehensive growth program supporting founders in identifying market opportunities, optimizing operational bottlenecks, and scaling revenue efficiently.",
         },
         {
-          title: "Mind the Clock",
-          tag: "Time Management Programme | 1:1 & Group Sessions",
-          desc: "A practical, regulation informed programme for teens navigating stress, overwhelm, and the demands of school, work, and daily life.",
+          title: "Operational Excellence",
+          tag: "Systems & Processes | 1:1 & Team Advisory",
+          desc: "A practical, systems-driven program for business owners navigating operational overwhelm, streamlining daily management, and building self-sustaining teams.",
         },
         {
-          title: "Bold & Brave",
-          tag: "Confidence Building Programme | 1:1 & Small Group | 12 Weeks",
-          desc: "A 12 week journey exploring emotions, values, and self-acceptance building the courage to be yourself. Confidence here grows through understanding, not performance.",
+          title: "Bold Market Positioning",
+          tag: "Brand & Market Strategy | 12 Weeks",
+          desc: "A 12-week strategic journey exploring competitive advantage, value proposition refinement, and premium market positioning to stand out in crowded industries.",
         },
         {
-          title: "Counselling and Psychotherapy",
-          tag: "Trauma Informed Therapy & Wellness Coaching | 1:1 Sessions",
-          desc: "Individual therapy for teenagers navigating stress, emotional difficulties, and life challenges. Delivered within a trauma informed framework, sessions are paced and safe.",
+          title: "Founder Advisory & Sounding Board",
+          tag: "Strategic Sounding Board | 1:1 Sessions",
+          desc: "Confidential, one-on-one strategic advisory for founders navigating high-stakes business challenges, partnership dynamics, and growth milestones.",
         },
       ],
-      image: "/assets/images/teenagers.png",
+      image: "/assets/images/corporates.png",
     },
     {
       id: "adults",
-      audience: "For Adults",
-      categoryDesc: "Trauma informed counselling and psychotherapy for anxiety, burnout, complex PTSD, and the patterns that keep resurfacing. In person and online.",
+      audience: "Career Advancement & Professional Growth",
+      categoryDesc: "Targeted professional development to navigate career transitions, secure leadership promotions, and build a powerful professional brand.",
       categoryCtaLink: "/contact",
       programmes: [
         {
-          title: "Counselling and Psychotherapy",
-          tag: "Trauma Informed Therapy & Wellness Coaching | 1:1 Sessions",
-          desc: "Individual therapy for adults across a wide range of presentations from anxiety and depression to Complex PTSD (C-PTSD), dissociative patterns, and psychosis-spectrum concerns. Our approach integrates CBT, EMDR informed methods, and somatic practices.",
+          title: "Career Trajectory Mapping",
+          tag: "Professional Advancement | 1:1 Sessions",
+          desc: "Strategic career coaching for ambitious professionals seeking to secure executive promotions, pivot industries, or maximize their earning potential. We build actionable career progression roadmaps.",
         },
         {
-          title: "Burnout Support Programme",
-          tag: "Stress Management Programme | Group Sessions",
-          desc: "For adults running on empty. This programme supports individuals in understanding and managing stress, restoring balance, and rebuilding capacity practically and sustainably.",
+          title: "Leadership Acceleration",
+          tag: "Management Development | Small Group Sessions",
+          desc: "For high-performing individual contributors stepping into management. This program equips emerging leaders with the skills to delegate, manage team performance, and lead with authority.",
         },
       ],
-      image: "/assets/images/adults.png",
+      image: "/assets/images/impact.png",
     },
     {
       id: "schools",
-      audience: "For Schools",
-      categoryDesc: "Whole school mental health programmes, teacher capacity building, and BBR School Edition bringing trauma aware practice into every classroom.",
+      audience: "Corporate Workshops & Team Alignment",
+      categoryDesc: "High-impact team alignment sessions, leadership communication training, and performance mastery workshops for modern organizations.",
       categoryCtaLink: "/contact",
       programmes: [
         {
-          title: "BBR School Edition",
-          tag: "Resilience Building Programme | School Based Delivery",
-          desc: "Structured programmes that support emotional skills, behaviour, and overall wellbeing delivered directly within school settings.",
+          title: "BBR Corporate Edition",
+          tag: "Organizational Resilience | On-Site Delivery",
+          desc: "Structured corporate programs that support high-performance teamwork, strategic alignment, and overall organizational resilience delivered directly within company headquarters.",
         },
         {
-          title: "Teacher Capacity Building",
-          tag: "Educator Programme | Group Sessions & Workshops",
-          desc: "Equips teachers with practical, trauma informed tools to recognise, understand, and safely support children's emotions and behaviour.",
+          title: "Management Capacity Building",
+          tag: "Leadership Workshop | Group Sessions",
+          desc: "Equips corporate managers with practical, high-performance coaching frameworks to recognize, understand, and effectively lead diverse organizational teams.",
         },
       ],
-      image: "/assets/images/school.png",
+      image: "/assets/images/corporates.png",
     },
     {
       id: "organisations",
-      audience: "For Organisations & Corporates",
-      categoryDesc: "Workplace wellbeing workshops, stress management, and team mental health support that creates lasting cultural change.",
+      audience: "Workplace Productivity & Stress Mastery",
+      categoryDesc: "Workplace productivity workshops, executive energy management, and team performance support that creates lasting operational excellence.",
       categoryCtaLink: "/contact",
       programmes: [
         {
-          title: "Corporate Success Programmes",
-          tag: "Workplace Wellbeing | Group Sessions & Workshops",
-          desc: "Tailored stress management and emotional wellbeing support for teams and organisations. We build psychologically safer, more resilient workplaces.",
+          title: "Corporate Success & Peak Performance",
+          tag: "Workplace Productivity | Group Sessions & Workshops",
+          desc: "Tailored energy management and executive peak performance support for elite corporate teams. We build highly productive, adaptable, and focused organizations.",
         },
       ],
       image: "/assets/images/corporates.png",
     },
     {
       id: "communities",
-      audience: "For Communities",
-      categoryDesc: "Accessible group programmes, community initiatives, and the Lift Others as You Rise platform.",
+      audience: "Leadership Masterminds & Peer Advisory",
+      categoryDesc: "Exclusive peer advisory groups, structured masterminds, and our signature Lift Others as You Rise executive networking platform.",
       categoryCtaLink: "/contact",
       programmes: [
         {
-          title: "Lift Others as You Rise",
-          tag: "Community Wellbeing Programme | Group Sessions",
-          desc: "Brings emotional wellbeing and resilience support to groups and communities rooted in the belief that when one person heals, it ripples outward.",
+          title: "Lift Others as You Rise Mastermind",
+          tag: "Executive Peer Advisory | Group Sessions",
+          desc: "Brings elite strategic networking and mutual accountability to ambitious business leaders—rooted in the belief that when one leader succeeds, the entire industry elevates.",
         },
       ],
       image: "/assets/images/community.png",
     },
     {
       id: "parents",
-      audience: "For Parents",
-      categoryDesc: "Guidance, coaching, and resources to help parents support their children's emotional development and their own.",
+      audience: "Life Coaching & Personal Vision",
+      categoryDesc: "Holistic personal coaching designed to establish work-life harmony, clarify personal vision, and unlock elite individual performance.",
       categoryCtaLink: "/contact",
       programmes: [
         {
-          title: "Parenting and Psycho Education Workshops",
-          tag: "Parenting Programme | Group Sessions",
-          desc: "Helping parents understand emotions their children's and their own so they can show up with more calm, connection, and confidence.",
+          title: "Personal Vision & Life Strategy",
+          tag: "Holistic Life Coaching | 1:1 Sessions",
+          desc: "Helping high-achieving individuals clarify their core personal vision, master work-life harmony, and show up in every area of life with absolute calm, purpose, and confidence.",
         },
       ],
-      image: "/assets/images/parents.png",
+      image: "/assets/images/adults.png",
     },
   ];
 
@@ -296,10 +296,10 @@ export default function ServicesPage() {
             </div>
 
             <h1 className="services-hero-title mt-7 text-4xl md:text-7xl font-playfair font-bold text-white leading-[1.05]">
-              Therapy and skill building that goes beyond the session.
+              Executive coaching and business strategy that drives measurable results.
             </h1>
             <p className="services-hero-subtitle mt-6 text-lg md:text-xl text-white/75 font-nunito leading-relaxed max-w-2xl">
-              Whether you are a parent seeking support for your child, an adult carrying something long held, or a school leader building a trauma aware culture The Safe Space has a pathway designed for you.
+              Whether you are a C-suite executive seeking strategic clarity, an entrepreneur scaling your business, or a professional navigating career advancement, The Safe Space Global has a pathway designed for you.
             </p>
 
             <div className="services-hero-actions mt-10 flex flex-col sm:flex-row gap-4">
@@ -437,8 +437,8 @@ export default function ServicesPage() {
               Not sure where to start?
             </h2>
             <p className="mt-5 text-lg md:text-xl text-cream-brand/70 font-nunito leading-relaxed">
-              That’s completely okay. Tell us what you’re experiencing, and
-              we’ll help you choose a path no pressure, no commitment.
+              That’s completely okay. Tell us about your professional and business goals, and
+              we’ll help you choose the right coaching package no pressure, no commitment.
             </p>
             <div className="mt-9 flex flex-col sm:flex-row gap-4">
               <Link

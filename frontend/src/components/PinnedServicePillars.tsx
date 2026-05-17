@@ -10,33 +10,33 @@ gsap.registerPlugin(ScrollTrigger);
 
 const servicePillars = [
   {
-    title: "For Children",
-    desc: "Play-based, creative, and clinically guided programmes that build emotional skills from the ground up.",
-    image: "/assets/images/children.png",
+    title: "Executive Coaching",
+    desc: "High-level strategic coaching for C-suite leaders and executives to maximize decision-making, leadership presence, and organizational impact.",
+    image: "/assets/images/vision.png",
   },
   {
-    title: "For Teenagers",
-    desc: "Individual therapy, confidence building, time management, and communication skills designed for real adolescent life.",
-    image: "/assets/images/teenagers.png",
-  },
-  {
-    title: "For Adults",
-    desc: "Trauma informed counselling and psychotherapy for a full range of presentations, from anxiety and burnout to Complex PTSD and beyond.",
-    image: "/assets/images/adults.png",
-  },
-  {
-    title: "For Schools",
-    desc: "SEL programmes, teacher capacity building, and the BBR School Edition structured support for entire school communities.",
-    image: "/assets/images/school.png",
-  },
-  {
-    title: "For Corporates",
-    desc: "Workplace wellbeing, stress management, and mental health first aid for teams and organisations.",
+    title: "Business Coaching",
+    desc: "Tailored strategies for entrepreneurs and business owners to scale operations, optimize team performance, and accelerate sustainable growth.",
     image: "/assets/images/corporates.png",
   },
   {
-    title: "For Communities",
-    desc: "Group programmes that bring emotional wellbeing and resilience to people where they are.",
+    title: "Career Coaching",
+    desc: "Targeted professional development to navigate career transitions, secure leadership promotions, and build a powerful professional brand.",
+    image: "/assets/images/impact.png",
+  },
+  {
+    title: "Life Coaching",
+    desc: "Holistic personal coaching designed to establish work-life harmony, clarify personal vision, and unlock elite individual performance.",
+    image: "/assets/images/adults.png",
+  },
+  {
+    title: "Corporate Workshops",
+    desc: "High-impact team alignment sessions, leadership communication training, and performance mastery workshops for modern organizations.",
+    image: "/assets/images/corporates.png",
+  },
+  {
+    title: "Leadership Masterminds",
+    desc: "Exclusive peer advisory groups and structured masterminds connecting ambitious leaders for mutual growth, accountability, and strategic breakthrough.",
     image: "/assets/images/community.png",
   },
 ];

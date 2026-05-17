@@ -205,7 +205,7 @@ export default function StorybookHero() {
         <div className="flex justify-center items-center p-20 mt-20 max-w-4xl">
           <GsapReveal delay={0.1}>
             <h2 className="text-4xl sm:text-5xl lg:text-7xl xl:text-[6rem] font-playfair text-white leading-none">
-              Change the pattern. Break the cycle.
+              Elevate your potential. Transform your future.
             </h2>
           </GsapReveal>
         </div>
@@ -213,11 +213,11 @@ export default function StorybookHero() {
         {/* Bottom Left Text */}
         <div className="absolute left-[3%] lg:left-[5%] bottom-[8%] max-w-[200px] sm:max-w-[280px]">
           <h3 className="text-base sm:text-lg text-amber-brand md:text-xl font-bold mb-2 sm:mb-3 font-playfair tracking-wide leading-tight">
-            This is where the pattern shifts.
+            This is where growth accelerates.
           </h3>
           <div className="w-6 h-px bg-cream-brand/50 mb-2 sm:mb-3"></div>
           <p className="text-[10px] md:text-[13px] text-cream-brand/70 font-nunito leading-relaxed hidden sm:block">
-            Therapy that works with the whole of you not just the symptom. Grounded in neuroscience. Delivered with care.
+            Professional coaching that works with the whole of you. Grounded in proven business strategies. Delivered with excellence.
           </p>
         </div>
 
@@ -234,7 +234,7 @@ export default function StorybookHero() {
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <path d="m6 9 6 6 6-6" />
+               <path d="m6 9 6 6 6-6" />
               <path d="m6 15 6 6 6-6" />
             </svg>
           </div>
@@ -269,7 +269,7 @@ export default function StorybookHero() {
             className="bg-white/10 backdrop-blur-sm shadow-[0_8px_32px_0_rgba(0,0,0,0.3)] border border-white/10 p-1.5 sm:p-2.5 rounded-[2rem] sm:rounded-full flex items-center sm:gap-2 group will-change-transform w-full sm:w-auto"
           >
             <span className="bg-white text-[#1c1815] group-hover:bg-amber-brand group-hover:text-white px-4 sm:px-5 py-3 sm:py-2.5 rounded-[2rem] sm:rounded-full text-[10px] sm:text-xs font-bold tracking-wider uppercase transition-colors shadow-2xl flex-1 sm:flex-initial flex items-center justify-center text-center leading-tight">
-              Book a Confidential First Session
+              Book a Strategic Growth Consultation
             </span>
             <div className="bg-white hidden sm:flex rounded-full p-2.5 group-hover:bg-amber-brand transition-colors duration-200 group-hover:text-white shrink-0 items-center justify-center">
               <ChevronRight size={16} />
@@ -304,14 +304,14 @@ export default function StorybookHero() {
             className="absolute inset-0 flex flex-col items-center justify-center opacity-0 translate-y-12 px-6"
           >
             <h2 className="text-2xl md:text-6xl font-playfair font-bold text-cream-brand leading-tight max-w-4xl split-line drop-shadow-xl">
-              Trauma informed psychology and skill building for <br className="hidden md:block" />
+              Professional coaching and executive skill building for <br className="hidden md:block" />
               <span className="italic text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
-                children, adults, schools, and communities. Rooted in Sri Lanka. Reaching the world.
+                business leaders, executives, professionals, and ambitious individuals. Rooted in Sri Lanka. Reaching the world.
               </span>
             </h2>
             <div className="flex gap-4 mt-10 pointer-events-auto">
               <Link href="/services" className={btnPrimary}>
-                Explore Our Services
+                Explore Our Coaching Programs
               </Link>
               <Link href="/contact" className={btnSecondary}>
                 Ask Us a Question

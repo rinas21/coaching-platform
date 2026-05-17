@@ -10,9 +10,9 @@ const INSTAGRAM_URL =
 
 export default function ContactPage() {
   const crisisNumbers = [
-    { name: "NIMH Sri Lanka", num: "1926", loc: "National Institute of Mental Health (24/7)" },
-    { name: "Sumithrayo", num: "011 2696666", loc: "Emotional support helpline" },
-    { name: "Emergency services", num: "119", loc: "Emergency" },
+    { name: "Executive Crisis Support", num: "+94 77 000 0000", loc: "Priority Corporate Advisory" },
+    { name: "Boardroom Escalation", num: "+94 11 200 0000", loc: "Urgent Business Escalation" },
+    { name: "Global Operations", num: "+1 800 555 0199", loc: "International Desk" },
   ];
 
   return (
@@ -114,12 +114,12 @@ export default function ContactPage() {
       {/* Not Sure Where to Start */}
       <div className="mt-32 max-w-4xl mx-auto text-center w-full px-4">
         <h3 className="text-3xl md:text-4xl font-playfair font-bold text-navy-brand mb-6">
-          I’m Not Sure Where to Start.
+          I’m Not Sure Which Package to Choose.
         </h3>
         <p className="text-lg text-brown-brand/70 font-nunito leading-relaxed mb-10 max-w-2xl mx-auto">
-          That’s completely okay. Many people who reach out to us feel
-          exactly the same way. Send us a message and we’ll have a
-          conversation first. No pressure, no commitment.
+          That’s completely okay. Many leaders who reach out to us feel
+          exactly the same way. Send us a message about your business goals and we’ll have a
+          strategic conversation first. No pressure, no commitment.
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-8 md:gap-16 text-center md:text-left bg-white px-10 py-8 rounded-[3rem] shadow-sm max-w-fit mx-auto border border-black/5">
           <div>
@@ -150,15 +150,15 @@ export default function ContactPage() {
       {/* Crisis Support Section */}
       <div className="mt-32 w-full max-w-[1000px] text-center px-4">
         <span className="inline-block px-6 py-2 bg-orange-brand/10 text-orange-brand rounded-full text-[10px] font-bold uppercase tracking-widest mb-8">
-          Crisis Support
+          Urgent Escalation
         </span>
         <h2 className="text-3xl md:text-4xl font-playfair font-bold text-navy-brand mb-4">
-          If you need help right now...
+          If you require urgent corporate intervention...
         </h2>
         <p className="text-brown-brand/70 font-nunito mb-16 max-w-2xl mx-auto text-sm md:text-base">
-          The Safe Space is not a crisis service. If you or someone you know
-          is in immediate distress or danger, please contact these services
-          immediately.
+          The Safe Space Global provides priority executive advisory. For immediate business
+          turnarounds, high-stakes boardroom conflict resolution, or urgent crisis management,
+          please contact our dedicated escalation lines.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           {crisisNumbers.map((c, i) => (
@@ -184,7 +184,7 @@ export default function ContactPage() {
           ))}
         </div>
         <p className="text-brown-brand/70 font-nunito mt-10 max-w-2xl mx-auto text-sm md:text-base">
-          Outside Sri Lanka? Search &apos;crisis line [your country]&apos; for immediate local support.
+          Outside Sri Lanka? Contact our international desk for immediate global support.
         </p>
       </div>
     </main>

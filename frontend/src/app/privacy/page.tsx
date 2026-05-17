@@ -21,11 +21,11 @@ export default function PrivacyPage() {
           <section className="space-y-4">
             <h2 className="text-3xl font-playfair font-bold text-navy-brand">1. Information We Collect</h2>
             <p className="text-brown-brand/80 font-nunito leading-relaxed">
-              We collect information to provide you with effective support and maintain a safe therapeutic environment. The types of data we collect include:
+              We collect information to provide you with effective executive advisory and maintain a highly secure corporate environment. The types of data we collect include:
             </p>
             <ul className="list-disc list-inside space-y-2 text-brown-brand/80 font-nunito ml-4">
               <li><strong>Contact Information:</strong> Your name, email address, phone number, and emergency contact details.</li>
-              <li><strong>Clinical & Intake Data:</strong> Information you provide during intake forms, consultations, or sessions (e.g., medical history, psychological history, reasons for seeking support).</li>
+              <li><strong>Corporate & Intake Data:</strong> Information you provide during intake forms, consultations, or sessions (e.g., business structure, organizational challenges, reasons for seeking executive advisory).</li>
               <li><strong>Payment Information:</strong> Billing details used to process payments through our secure third-party payment processors.</li>
               <li><strong>Technical Data:</strong> Information collected automatically when you use our website, such as IP address, browser type, and cookies.</li>
             </ul>
@@ -37,7 +37,7 @@ export default function PrivacyPage() {
               Your information is used strictly to deliver our services securely and effectively. We use your data to:
             </p>
             <ul className="list-disc list-inside space-y-2 text-brown-brand/80 font-nunito ml-4">
-              <li>Schedule, manage, and facilitate consultations, therapy sessions, or training programs.</li>
+              <li>Schedule, manage, and facilitate consultations, executive coaching sessions, or corporate masterclasses.</li>
               <li>Communicate important updates regarding your appointments or account.</li>
               <li>Process payments and maintain billing records.</li>
               <li>Improve our website performance and user experience.</li>
@@ -48,7 +48,7 @@ export default function PrivacyPage() {
           <section className="space-y-4">
             <h2 className="text-3xl font-playfair font-bold text-navy-brand">3. Confidentiality & Disclosure</h2>
             <p className="text-brown-brand/80 font-nunito leading-relaxed">
-              As a mental health practice, confidentiality is the cornerstone of our work. Everything shared in your sessions remains strictly confidential between you and your practitioner, except in the following mandatory reporting scenarios:
+              As a premium executive coaching firm, confidentiality is the cornerstone of our work. Everything shared in your sessions remains strictly confidential between you and your executive advisor, covered by robust non-disclosure standards, except in the following mandatory legal reporting scenarios:
             </p>
             <ul className="list-disc list-inside space-y-2 text-brown-brand/80 font-nunito ml-4">
               <li>There is a clear and immediate risk of severe harm to yourself or someone else.</li>
@@ -60,7 +60,7 @@ export default function PrivacyPage() {
           <section className="space-y-4">
             <h2 className="text-3xl font-playfair font-bold text-navy-brand">4. Data Storage & Security</h2>
             <p className="text-brown-brand/80 font-nunito leading-relaxed">
-              We implement industry-standard security measures, including encryption and secure servers, to protect your personal and clinical data against unauthorized access, alteration, or disclosure. Clinical notes are stored separately from general user data on secure, compliant platforms.
+              We implement industry-standard security measures, including encryption and secure servers, to protect your personal and corporate data against unauthorized access, alteration, or disclosure. Executive advisory notes are stored separately from general user data on secure, compliant platforms.
             </p>
           </section>
 
@@ -72,7 +72,7 @@ export default function PrivacyPage() {
             <ul className="list-disc list-inside space-y-2 text-brown-brand/80 font-nunito ml-4">
               <li>Request access to the personal data we hold about you.</li>
               <li>Ask us to correct or update inaccurate information.</li>
-              <li>Request the deletion of your data (subject to legal and clinical record-keeping requirements).</li>
+              <li>Request the deletion of your data (subject to legal and corporate record-keeping requirements).</li>
               <li>Opt-out of non-essential communications.</li>
             </ul>
           </section>

@@ -22,27 +22,27 @@ type TestimonialList = {
 const TESTIMONIAL_OVERRIDES: TestimonialRecord[] = [
   {
     documentId: "override-1",
-    Name: "Adult Therapy Client",
+    Name: "Executive VP, Tech Enterprise",
     Date: "2025-08-12",
-    testimonials: "I walked in feeling completely overwhelmed by my own mind. My practitioner didn't just give me quick-fix tools; she helped me understand the 'why' behind my reactions. For the first time in years, I feel like I have clarity and control."
+    testimonials: "Working with The Safe Space Global transformed our leadership team. The strategic clarity and executive coaching helped us scale our operations while maintaining alignment."
   },
   {
     documentId: "override-2",
-    Name: "Parent of a Teenager",
+    Name: "Founder & CEO, FinTech Scaling",
     Date: "2025-06-03",
-    testimonials: "We had tried so many things before finding The Safe Space. The approach here is so different—grounded, practical, and deeply respectful. My daughter finally felt heard, and as a family, we learned how to communicate without the constant conflict."
+    testimonials: "The business coaching provided unparalleled insights into our market strategy and organizational structure. It has been the most high-return investment for our executive team."
   },
   {
     documentId: "override-3",
-    Name: "Internship Graduate",
+    Name: "Senior Director, Global Operations",
     Date: "2025-11-20",
-    testimonials: "This is not a passive placement. The supervision challenged me to look at my own blind spots and refine my clinical reasoning. I left the programme feeling genuinely prepared to step into the room as a practitioner."
+    testimonials: "My career coaching sessions gave me the exact tools and confidence needed to transition into executive leadership. Truly world-class guidance and support."
   },
   {
     documentId: "override-4",
     Name: "Corporate Workshop Attendee",
     Date: "2025-09-15",
-    testimonials: "The team workshop was eye-opening. Instead of generic advice about self-care, we learned about the nervous system and actionable ways to reset our stress cycles. It fundamentally changed how we support each other at work."
+    testimonials: "The executive team workshop was eye-opening. Instead of generic management advice, we learned about organizational alignment and actionable ways to optimize our execution cycles. It fundamentally changed how we lead our teams."
   }
 ];
 
@@ -76,14 +76,14 @@ export default async function TestimonialsPage() {
         <GsapReveal delay={0.1} className="relative z-20 w-full">
           <div className="text-center px-6">
             <span className="text-amber-brand font-bold tracking-widest uppercase text-[10px] md:text-xs mb-6 block underline decoration-amber-brand/30 underline-offset-8">
-              Voices of Healing
+              Voices of Leadership
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-playfair font-bold text-navy-brand mb-6 md:mb-8 leading-tight">
-              What People <br className="block md:hidden" /> Are Saying.
+              What Leaders <br className="block md:hidden" /> Are Saying.
             </h1>
             <p className="mx-auto max-w-3xl text-lg md:text-xl text-brown-brand/70 font-nunito leading-relaxed italic max-w-[90%] md:max-w-3xl">
-              &quot;At The Safe Space, the work we do is only meaningful because
-              of the people who trust us with it.&quot;
+              &quot;At The Safe Space Global, the executive advisory we provide is only meaningful because
+              of the leaders who trust us with their organizations.&quot;
             </p>
           </div>
         </GsapReveal>
@@ -149,9 +149,9 @@ export default async function TestimonialsPage() {
                 Share Your Experience.
               </h3>
               <p className="text-xl text-brown-brand/70 font-nunito mb-12 max-w-2xl mx-auto leading-relaxed">
-                Have you worked with us, attended one of our programmes, or
-                trained as an intern at TSSG? Your words shared anonymously
-                may be exactly what someone else needs to take that first step.
+                Have you worked with us, attended one of our executive masterclasses, or
+                trained as a fellow at TSSG? Your words shared anonymously
+                may be exactly what another leader needs to take that first step.
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <Link

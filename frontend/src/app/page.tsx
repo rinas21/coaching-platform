@@ -19,16 +19,16 @@ export const revalidate = 60;
 
 const FALLBACK_TESTIMONIALS = [
   {
-    quote: "The Safe Space has completely changed how I approach my daily stress. The BBR programme for my daughter was exactly what she needed.",
-    attribution: "Mother of a BBR participant, Colombo",
+    quote: "The business coaching provided unparalleled clarity and strategic direction. Our executive team has never been more aligned.",
+    attribution: "CEO, FinTech Enterprise",
   },
   {
-    quote: "Rooted in neuroscience but delivered with such heart. I've never felt more understood in a clinical setting.",
-    attribution: "Adult Client",
+    quote: "Working with Sarah Thompson transformed my leadership approach. The executive coaching helped us scale our operations efficiently.",
+    attribution: "VP of Operations",
   },
   {
-    quote: "The workshops gave our team tools they went home and used that week. The shift in how we handle pressure together has been real.",
-    attribution: "HR Lead, financial services firm, Colombo",
+    quote: "The corporate workshops gave our management team actionable leadership frameworks. The shift in organizational culture has been remarkable.",
+    attribution: "HR Lead, Global Tech Firm",
   },
 ];
 
@@ -67,20 +67,20 @@ export default async function Home() {
               Why we do this differently
             </span>
             <GsapSplitText
-              text="Most struggles have a pattern beneath them. We help you find it and change it."
+              text="True leadership requires strategic clarity. We help you find it and scale it."
               elementType="h2"
               className="mb-8 text-4xl md:text-5xl font-playfair font-bold text-navy-brand leading-tight"
             />
             <div className="space-y-6 text-xl text-brown-brand/80 font-nunito leading-relaxed">
               <GsapSplitText
-                text="We do not just treat symptoms. We work with the patterns beneath them."
+                text="We do not offer generic advice. We build high-impact leadership frameworks."
                 elementType="p"
                 className="font-bold text-sm md:text-xl"
               />
               <p className="text-lg md:text-xl">
-                At The Safe Space, we believe that lasting change happens when people feel safe enough to engage, supported enough to try, and equipped with the skills to respond differently. Our work spans the full arc of human development: from building resilience in young children, to supporting adults through complex trauma, to training the next generation of mental health practitioners.
+                At The Safe Space Global, we believe that sustainable business growth happens when leaders have clear strategic vision, aligned executive teams, and proven frameworks for decision-making. Our work spans the full spectrum of professional development: from guiding C-suite executives, to scaling businesses, to advancing individual career trajectories.
               </p>
-              <p className="text-lg md:text-xl">Whatever brings you here you are in the right place.</p>
+              <p className="text-lg md:text-xl">Whatever your professional goals, you are in the right place.</p>
             </div>
             <Link href="/about" className="btn-primary mt-6">
               Read our story
@@ -95,7 +95,7 @@ export default async function Home() {
             <div className="absolute -inset-4 bg-amber-brand/5 rounded-[4rem] blur-2xl -z-10" />
             <Image
               src={HomeHero}
-              alt="Storybook atmosphere"
+              alt="Professional Coaching Atmosphere"
               className="object-cover rounded-[3rem] shadow-2xl border-8 border-white"
               width={700}
               height={800}
@@ -103,7 +103,7 @@ export default async function Home() {
             />
             <div className="absolute -bottom-8 -left-8 md:-left-4 bg-white p-8 rounded-[2rem] shadow-xl border border-amber-brand/10 max-w-[280px] hidden md:block">
               <p className="italic font-playfair text-navy-brand text-lg">
-                &quot;We are here to build, to prevent, and to heal.&quot;
+                &quot;We are here to elevate leaders, optimize businesses, and accelerate growth.&quot;
               </p>
               <p className="mt-4 text-sm font-bold text-amber-brand uppercase tracking-widest">
                 The Safe Space Team
@@ -122,16 +122,16 @@ export default async function Home() {
                 What We Offer
               </span>
               <GsapSplitText
-                text="Care that holds the whole person."
+                text="Coaching that empowers the entire organization."
                 elementType="h2"
                 className="mb-6 text-4xl md:text-6xl font-playfair font-bold text-navy-brand"
               />
               <p className="text-lg md:text-xl text-brown-brand/70 font-nunito leading-relaxed">
-                Whether you are a parent seeking support for your child, a school building a trauma aware culture, or an adult working through something long held there is a pathway here for you.
+                Whether you are an executive seeking strategic clarity, an entrepreneur scaling your business, or a professional navigating career advancement, there is a specialized coaching program here for you.
               </p>
             </div>
             <Link href="/services" className="btn-outline">
-              Find the right service for you
+              Find the right coaching program for you
             </Link>
           </div>
 
@@ -149,14 +149,10 @@ export default async function Home() {
                 Our Approach
               </div>
               <h2 className="text-2xl md:text-5xl font-playfair font-bold text-white mb-8">
-                Rooted in neuroscience. Guided by compassion. Built for real life.
+                Grounded in strategy. Guided by experience. Built for leadership.
               </h2>
               <p className="text-sm md:text-xl text-white/70 font-nunito leading-relaxed mb-8">
-                Every programme and session at TSSG is grounded in
-                trauma informed principles, evidence-based practice, and a deep
-                respect for the individual. We integrate cognitive, somatic, and
-                creative approaches working with both the mind and the body to
-                create change that lasts.
+                Every program and session at TSSG is grounded in proven business frameworks, executive leadership principles, and a commitment to actionable results. We integrate strategic planning, organizational alignment, and high-performance mindset coaching to create business transformation that lasts.
               </p>
             </GsapReveal>
           </div>
@@ -171,21 +167,21 @@ export default async function Home() {
             <div className="relative z-10 grid lg:grid-cols-2 gap-16 items-center">
               <GsapReveal direction="up" className="relative z-10">
                 <span className="text-amber-brand font-bold tracking-widest uppercase text-xs mb-6 block">
-                  Sri Lanka&apos;s first programme of its kind
+                  Elite Executive Leadership Program
                 </span>
                 <GsapSplitText
-                  text="Building Blocks of Resilience (BBR)"
+                  text="Building Business Resilience (BBR)"
                   elementType="h2"
                   className="text-2xl md:text-5xl font-playfair font-bold text-navy-brand mb-8"
                 />
                 <p className="text-sm md:text-xl text-brown-brand/70 font-nunito leading-relaxed mb-10">
-                  Sri Lanka&apos;s first neuroscience-integrated social-emotional learning curriculum. Designed by Zahra Iram Masud, BBR helps children aged 5 to 12 recognise their emotions, regulate their responses, and build skills they carry into every classroom, friendship, and challenge ahead. Delivered through play, creativity, and structured learning.
+                  Our premier executive leadership and organizational alignment program. Designed for C-suite leaders and ambitious executives, BBR provides the strategic frameworks required to navigate market volatility, optimize team performance, and scale operations sustainably. Delivered through high-impact coaching, executive masterminds, and strategic execution planning.
                 </p>
                 <Link
                   href="/services#bbr"
                   className="btn-primary bg-sage-brand hover:bg-navy-brand hover:text-white"
                 >
-                  Explore BBR
+                  Explore BBR Program
                 </Link>
               </GsapReveal>
               <GsapReveal direction="left" delay={0.2} className="hidden md:grid grid-cols-2 gap-4">
@@ -217,19 +213,18 @@ export default async function Home() {
         <div className="mx-auto max-w-[1240px] px-6">
           <GsapReveal direction="up" className="relative z-10">
             <span className="text-amber-brand font-bold tracking-widest uppercase text-xs mb-6 block">
-              Train With Us
+              Advanced Training
             </span>
             <GsapSplitText
-              text="The TSSG Internship Programme For psychology students and early career practitioners."
+              text="The TSSG Executive Coach Training Program for aspiring coaches and leadership consultants."
               elementType="h2"
               className="text-2xl md:text-5xl font-playfair font-bold text-navy-brand mb-8 max-w-4xl"
             />
             <p className="text-sm md:text-xl text-brown-brand/70 font-nunito leading-relaxed mb-10">
-              Our internship is not a passive placement. It is a structured, supervised, and transformative training pathway open to Diploma,
-              Bachelor&apos;s, and Master&apos;s level students designed to shape ethical, reflective, and practice-ready mental health practitioners.
+              Our coach training is a rigorous, structured, and practical certification pathway designed for business leaders, consultants, and professionals seeking to master advanced executive coaching methodologies and build a thriving coaching practice.
             </p>
             <Link href="/internship" className="btn-primary mt-6">
-              Explore the Internship
+              Explore Coach Training
             </Link>
           </GsapReveal>
         </div>
@@ -258,13 +253,11 @@ export default async function Home() {
                 Zahra Iram Masud
               </h2>
               <p className="text-lg md:text-2xl font-playfair italic text-brown-brand/80 leading-relaxed mb-10">
-                &quot;This work did not begin with a model or a programme. It
-                began with a pattern and the belief that when patterns change
-                in one person, the impact extends far beyond them.&quot;
+                &quot;True business transformation does not happen by accident. It happens when leaders gain strategic clarity, align their teams, and commit to bold execution.&quot;
               </p>
               <div className="flex flex-col sm:flex-row gap-6">
                 <Link href="/team" className="btn-primary">
-                  Meet the Team
+                  Meet the Executive Coaches
                 </Link>
               </div>
             </GsapReveal>
@@ -276,10 +269,10 @@ export default async function Home() {
         <div className="mx-auto max-w-[1240px] px-6">
           <div className="text-center">
             <span className="text-amber-brand font-bold tracking-widest uppercase text-sm mb-8 block">
-              Voices of Healing
+              Client Success Stories
             </span>
             <GsapSplitText
-              text="In their own words."
+              text="Proven transformation results."
               elementType="h2"
               className="mb-6 text-4xl md:text-7xl font-playfair font-bold text-navy-brand"
             />
@@ -290,13 +283,13 @@ export default async function Home() {
             <GsapReveal delay={0.15}>
               <div className="mx-auto max-w-2xl rounded-[2.5rem] border border-amber-brand/10 bg-white/70 px-10 py-14 text-center backdrop-blur-sm">
                 <p className="text-lg text-brown-brand/80 font-nunito leading-relaxed">
-                  Client stories will appear here once they are published. Until
-                  then, you can read more about our approach or reach out with
+                  Client success stories will appear here once they are published. Until
+                  then, you can read more about our strategic approach or reach out with
                   questions.
                 </p>
                 <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
                   <Link href="/testimonials" className="btn-outline">
-                    Client Stories
+                    Client Success Stories
                   </Link>
                   <Link href="/contact" className="btn-primary">
                     Ask Us a Question
@@ -319,17 +312,15 @@ export default async function Home() {
           <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
             <div>
               <span className="text-amber-brand font-bold tracking-widest uppercase text-sm mb-6 block">
-                Building Resilience
+                Sustainable Growth
               </span>
               <GsapSplitText
-                text="Growing with the communities we serve."
+                text="Scaling businesses and empowering leaders."
                 elementType="h2"
                 className="mb-8 text-4xl md:text-5xl font-playfair font-bold text-navy-brand"
               />
               <p className="mb-10 text-xl text-brown-brand/80 font-nunito leading-relaxed">
-                We exist for, and because of, the people we serve extending
-                evidence-based care, training, and community initiatives that
-                strengthen resilience at every life stage.
+                We exist to empower business leaders and organizations, delivering high-impact executive coaching, corporate training, and strategic advisory services that drive sustainable growth.
               </p>
               <Link
                 href="/about"
@@ -350,14 +341,14 @@ export default async function Home() {
             >
               <div className="relative z-10">
                 <h3 className="mb-6 text-3xl md:text-4xl font-playfair font-bold text-white">
-                  Ready when you are.
+                  Ready to accelerate your growth?
                 </h3>
                 <p className="mb-12 text-lg text-cream-brand/70 font-nunito max-w-md">
-                  Whether you are exploring options, ready to book, or not sure where to start we will help you find the right path.
+                  Whether you are exploring coaching packages, ready to book a consultation, or seeking strategic team training, we will help you find the right path.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link href="/booking" className="btn-primary">
-                    Book a Session
+                    Book a Consultation
                   </Link>
                   <Link
                     href="/contact"

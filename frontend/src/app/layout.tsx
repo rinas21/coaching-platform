@@ -7,9 +7,9 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import "./globals.css";
 
 export const metadata = {
-  title: "The Safe Space Global | Trauma-Informed Psychology",
+  title: "The Safe Space Global | Executive Coaching & Business Advisory",
   description:
-    "A trauma-informed psychology and human development practice based in Sri Lanka, working with children, adolescents, adults, schools, and organisations.",
+    "A premier executive coaching and business strategy advisory firm based in Sri Lanka, working with C-suite leaders, founders, and global enterprises.",
 };
 
 export default function RootLayout({

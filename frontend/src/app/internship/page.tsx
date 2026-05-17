@@ -16,72 +16,72 @@ export default function InternshipPage() {
 
   const levels = [
     {
-      level: "Level 1 — Diploma",
-      identity: "The Helper",
-      focus: "Batch size: 10 | Lectures: Mondays, 9am–12pm",
+      level: "Level 1 — Associate Executive Coach",
+      identity: "The Strategic Advisor",
+      focus: "Batch size: 10 | Training: Mondays, 9am–12pm",
       description:
-        "This level lays the foundation. Interns develop emotional literacy, trauma informed listening, and the ability to design and facilitate structured group activities.",
+        "This level lays the foundation. Fellows develop executive communication, strategic listening, and the ability to design and facilitate structured corporate workshops.",
       months: [
         {
-          title: "Month 1 — Foundations & Research",
-          desc: "Training in emotional literacy, trauma informed listening, SEL and BBR frameworks, compassion fatigue, and professional boundaries. Groups of 5 design BBR based activities around a chosen psychosocial theme.",
+          title: "Month 1 — Foundations & Strategy",
+          desc: "Training in executive communication, strategic listening, organizational alignment, leadership presence, and professional boundaries. Groups of 5 design business growth workshops around a chosen corporate theme.",
         },
         {
-          title: "Month 2 — Fieldwork",
-          desc: "Two community sessions per week, delivering SEL sessions and documenting emotional shifts and participation across 6 weeks.",
+          title: "Month 2 — Applied Boardroom Fieldwork",
+          desc: "Two corporate alignment sessions per week, delivering strategic execution frameworks and documenting team performance shifts across 6 weeks.",
         },
         {
-          title: "Month 3 — Analysis & Presentation",
-          desc: "Before and after comparison, qualitative reporting, activity evaluation, and group presentation.",
+          title: "Month 3 — Analysis & Board Presentation",
+          desc: "Before-and-after business impact comparison, executive reporting, strategic evaluation, and panel presentation.",
         },
       ],
       competencies:
-        "Emotional literacy, empathic communication, SEL design, documentation basics.",
+        "Executive communication, strategic advisory design, operational alignment, boardroom presence.",
       icon: "🌱",
       color: "from-amber-brand/20 to-amber-brand/5",
       accent: "text-amber-brand",
     },
     {
-      level: "Level 2 — Bachelor's",
-      identity: "The Applied Practitioner",
-      focus: "Focus: Moderate anxiety, depression, and mild dysregulation",
+      level: "Level 2 — Senior Executive Coach",
+      identity: "The Applied Leadership Consultant",
+      focus: "Focus: Scaling bottlenecks, executive alignment, and team optimization",
       description:
-        "This level bridges theory and clinical practice. Interns work with real clients under supervision, developing the skills to assess, plan, and implement evidence-based interventions.",
+        "This level bridges advanced leadership theory and corporate advisory. Fellows work with real executives under supervision, developing the skills to assess, plan, and implement high-impact business frameworks.",
       months: [
         {
-          title: "Month 1 — Academic Foundations",
-          desc: "Weekly lectures on anxiety, mood, and behavioural disorders, grounding techniques, psychoeducation, Executive Functioning (EF) theory, and polyvagal theory. Interns develop weekly fictional client plans across 6 disorder presentations.",
+          title: "Month 1 — Advanced Business Strategy",
+          desc: "Weekly seminars on executive decision-making, organizational design, scaling bottlenecks, high-performance habits, and executive presence. Fellows develop weekly strategic plans across 6 corporate growth scenarios.",
         },
         {
-          title: "Month 2 — EF Intervention",
-          desc: "Each intern is assigned one real client and implements a structured 6-week Executive Functioning intervention plan, with weekly progress documentation.",
+          title: "Month 2 — Strategic Execution Intervention",
+          desc: "Each fellow is assigned one executive client and implements a structured 6-week strategic execution plan, with weekly milestone documentation.",
         },
         {
-          title: "Month 3 — Case Documentation",
-          desc: "EF comparison analysis, clinical reasoning, full case study, and a supervisor-approved treatment plan.",
+          title: "Month 3 — Corporate Case Documentation",
+          desc: "Execution comparison analysis, strategic reasoning, full business case study, and a supervisor-approved enterprise growth plan.",
         },
       ],
       competencies:
-        "Disorder identification, EF intervention delivery, treatment planning, case reasoning.",
+        "Growth bottleneck identification, executive framework delivery, strategic planning, enterprise reasoning.",
       icon: "🌿",
       color: "from-sage-brand/20 to-sage-brand/5",
       accent: "text-sage-brand",
     },
     {
-      level: "Level 3 — Master's",
-      identity: "The Emerging Therapist",
-      focus: "Focus: Complex presentations, trauma, and attachment",
+      level: "Level 3 — Master Executive Coach",
+      identity: "The Elite Business Advisor",
+      focus: "Focus: C-suite strategy, enterprise transformation, and board advisory",
       description:
-        "This is the most advanced level of our programme. Interns work with three assigned clients, integrating multiple therapeutic modalities under weekly supervision to build a full clinical portfolio.",
+        "This is the most advanced level of our fellowship. Fellows work with three assigned C-suite clients, integrating multiple strategic frameworks under weekly advisory to build a full executive consulting portfolio.",
       outcomes: [
-        "Case formulation and treatment planning",
-        "Delivery of CBT, ACT, and trauma informed modalities",
-        "Attachment theory integration",
-        "Process note writing and clinical portfolio building",
-        "Ethical judgment and reflective depth",
+        "Enterprise formulation and strategic roadmap design",
+        "Delivery of high-performance executive advisory modalities",
+        "C-suite stakeholder alignment and board management",
+        "Executive briefing writing and corporate portfolio building",
+        "Strategic judgment and leadership depth",
       ],
       competencies:
-        "Case formulation, therapeutic engagement, modality integration, ethical decision-making.",
+        "Enterprise formulation, C-suite engagement, framework integration, strategic decision-making.",
       icon: "🌳",
       color: "from-navy-brand/10 to-navy-brand/5",
       accent: "text-navy-brand",
@@ -217,16 +217,16 @@ export default function InternshipPage() {
             Professional Training Pathway
           </div>
           <h1 className="intern-hero-title text-5xl md:text-7xl lg:text-8xl font-playfair font-bold text-white mb-8 leading-[1.1] drop-shadow-lg [perspective:1000px]">
-            Train Where the <br className="hidden md:block" /> Work Is Real.
+            Train Where the <br className="hidden md:block" /> Business Transformation Is Real.
           </h1>
           <p className="intern-hero-subtitle mx-auto max-w-2xl text-lg md:text-xl text-white/85 font-nunito leading-relaxed">
-            The Safe Space Internship Programme is not a passive placement. It is
-            a structured, supervised, and deeply intentional training pathway
-            designed to shape ethical, reflective, and practice-ready mental
-            health practitioners.
+            The Safe Space Global Executive Coach Fellowship is not a passive program. It is
+            a structured, mentored, and deeply intentional certification pathway
+            designed to shape ethical, strategic, and practice-ready executive coaches
+            and business advisors.
           </p>
           <p className="intern-hero-subtitle mx-auto max-w-2xl text-lg md:text-xl text-white/90 font-nunito leading-relaxed mt-4 font-bold">
-            We don&apos;t just give interns experience. We give them formation.
+            We don&apos;t just give fellows experience. We give them elite professional formation.
           </p>
         </div>
       </section>
@@ -242,22 +242,22 @@ export default function InternshipPage() {
               <Users className="w-7 h-7" />
             </div>
             <h3 className="text-2xl font-playfair font-bold text-navy-brand mb-4">Who This Is For</h3>
-            <p className="text-brown-brand/80 font-nunito mb-6">Open to psychology students and early-career practitioners at three levels:</p>
+            <p className="text-brown-brand/80 font-nunito mb-6">Open to business leaders, aspiring coaches, and corporate consultants at three levels:</p>
             <ul className="space-y-4 stagger-group">
               <li className="stagger-item flex gap-3 text-brown-brand/90 font-nunito bg-white/50 p-3 rounded-xl border border-transparent hover:border-amber-brand/20 transition-colors">
-                <span className="font-bold text-navy-brand shrink-0">Diploma</span>
-                <span className="text-sm">building foundational helping skills</span>
+                <span className="font-bold text-navy-brand shrink-0">Associate</span>
+                <span className="text-sm">building foundational executive coaching skills</span>
               </li>
               <li className="stagger-item flex gap-3 text-brown-brand/90 font-nunito bg-white/50 p-3 rounded-xl border border-transparent hover:border-amber-brand/20 transition-colors">
-                <span className="font-bold text-navy-brand shrink-0">Bachelor&apos;s</span>
-                <span className="text-sm">developing applied clinical competency</span>
+                <span className="font-bold text-navy-brand shrink-0">Senior</span>
+                <span className="text-sm">developing applied business advisory competency</span>
               </li>
               <li className="stagger-item flex gap-3 text-brown-brand/90 font-nunito bg-white/50 p-3 rounded-xl border border-transparent hover:border-amber-brand/20 transition-colors">
-                <span className="font-bold text-navy-brand shrink-0">Master&apos;s</span>
-                <span className="text-sm">stepping into the identity of an emerging therapist</span>
+                <span className="font-bold text-navy-brand shrink-0">Master</span>
+                <span className="text-sm">stepping into the identity of an elite executive advisor</span>
               </li>
             </ul>
-            <p className="text-brown-brand/80 font-nunito mt-6 text-sm italic">Whether you are just starting out or deepening your clinical skills, there is structured space for you here.</p>
+            <p className="text-brown-brand/80 font-nunito mt-6 text-sm italic">Whether you are just starting out or deepening your advisory skills, there is structured space for you here.</p>
           </div>
 
           {/* Programme Philosophy */}
@@ -269,10 +269,10 @@ export default function InternshipPage() {
             <p className="text-brown-brand/80 font-nunito mb-6">Grounded in the values that guide all our work at TSSG:</p>
             <ul className="space-y-3 stagger-group">
               {[
-                "Emotional literacy and trauma informed communication",
-                "Reflective practice and self-awareness",
-                "Neurodevelopmental science and SEL foundations",
-                "Multicultural awareness and ethical integrity"
+                "Executive communication and strategic listening",
+                "Reflective leadership and self-awareness",
+                "Organizational behavior and business scaling foundations",
+                "Global market awareness and ethical integrity"
               ].map((item, i) => (
                 <li key={i} className="stagger-item flex items-start gap-3 text-brown-brand/90 font-nunito text-sm">
                   <CheckCircle className="w-4 h-4 text-sage-brand shrink-0 mt-0.5" />
@@ -280,7 +280,7 @@ export default function InternshipPage() {
                 </li>
               ))}
             </ul>
-            <p className="text-brown-brand/80 font-nunito mt-6 text-sm italic">Good practitioners are shaped through supervised experience, honest reflection, and the courage to engage with real human complexity.</p>
+            <p className="text-brown-brand/80 font-nunito mt-6 text-sm italic">Elite coaches are shaped through mentored experience, honest reflection, and the courage to engage with complex corporate challenges.</p>
           </div>
 
           {/* Programme Structure */}
@@ -292,11 +292,11 @@ export default function InternshipPage() {
             <p className="text-brown-brand/80 font-nunito mb-6">All levels run for <strong>3 months</strong> with mandatory <strong>80% attendance</strong>. Every level includes:</p>
             <ul className="space-y-3 stagger-group">
               {[
-                "Weekly theory sessions",
-                "Fieldwork with real-world application",
-                "Structured documentation",
-                "Individual and group supervision",
-                "Formal assessments"
+                "Weekly strategy sessions",
+                "Boardroom fieldwork with real-world application",
+                "Structured executive documentation",
+                "Individual and group mentorship",
+                "Formal board assessments"
               ].map((item, i) => (
                 <li key={i} className="stagger-item flex items-start gap-3 text-brown-brand/90 font-nunito text-sm">
                   <span className="w-2 h-2 rounded-full bg-navy-brand shrink-0 mt-1.5" />
@@ -312,7 +312,7 @@ export default function InternshipPage() {
         <div className="intern-reveal text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold text-navy-brand mb-4">The Three Levels</h2>
           <p className="text-lg text-brown-brand/70 font-nunito max-w-2xl mx-auto">
-            A comprehensive, structured pathway from foundational skills to advanced clinical practice.
+            A comprehensive, structured pathway from foundational skills to advanced executive practice.
           </p>
         </div>
 
@@ -409,7 +409,7 @@ export default function InternshipPage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-navy-brand mb-4">Programme Standards</h2>
             <p className="text-lg text-brown-brand/70 font-nunito max-w-3xl mx-auto">
-              Our internship is designed and delivered in alignment with APA and BPS ethical frameworks, and informed by international practicum standards. Every element has been deliberately built to prepare interns for practice at the highest level.
+              Our fellowship is designed and delivered in alignment with ICF (International Coaching Federation) ethical frameworks, and informed by international executive coaching standards. Every element has been deliberately built to prepare fellows for boardroom advisory at the highest level.
             </p>
           </div>
 
@@ -421,18 +421,18 @@ export default function InternshipPage() {
                 <div className="w-12 h-12 rounded-full bg-amber-brand/10 flex items-center justify-center text-amber-brand">
                   <ShieldCheck className="w-6 h-6" />
                 </div>
-                <h3 className="text-2xl md:text-3xl font-playfair font-bold text-navy-brand">Supervision</h3>
+                <h3 className="text-2xl md:text-3xl font-playfair font-bold text-navy-brand">Mentorship</h3>
               </div>
               <p className="text-brown-brand/80 font-nunito mb-6 leading-relaxed">
-                All interns are supervised by Master&apos;s-level psychologists with a minimum of 3 years clinical experience. Supervision is structured, regular, and covers:
+                All fellows are mentored by Master Certified Coaches with extensive C-suite advisory experience. Mentorship is structured, regular, and covers:
               </p>
               <ul className="space-y-3 stagger-group">
                 {[
-                  "Case review and clinical reasoning",
-                  "Ethical oversight and guidance",
-                  "Skills correction and development",
-                  "Documentation refinement",
-                  "Emotional containment and professional modelling"
+                  "Corporate case review and strategic reasoning",
+                  "Ethical oversight and boardroom guidance",
+                  "Advisory skills correction and development",
+                  "Executive briefing refinement",
+                  "Leadership presence and professional modelling"
                 ].map((item, i) => (
                   <li key={i} className="stagger-item flex items-start gap-3 text-brown-brand/90 font-nunito text-base">
                     <span className="w-2 h-2 rounded-full bg-amber-brand shrink-0 mt-2" />
@@ -440,7 +440,7 @@ export default function InternshipPage() {
                   </li>
                 ))}
               </ul>
-              <p className="mt-8 text-navy-brand font-bold italic font-playfair text-lg">Supervision is not an add-on. It is the backbone of the programme.</p>
+              <p className="mt-8 text-navy-brand font-bold italic font-playfair text-lg">Mentorship is not an add-on. It is the backbone of the fellowship.</p>
             </div>
 
             {/* Documentation Requirements */}
@@ -452,16 +452,16 @@ export default function InternshipPage() {
                 <h3 className="text-2xl md:text-3xl font-playfair font-bold text-navy-brand">Documentation</h3>
               </div>
               <p className="text-brown-brand/80 font-nunito mb-6 leading-relaxed">
-                Interns develop professional habits through structured documentation throughout the programme, including:
+                Fellows develop professional habits through structured documentation throughout the programme, including:
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 stagger-group mb-6">
                 {[
-                  "Weekly reflective journals",
-                  "Supervision logs",
-                  "Session documentation",
-                  "Baseline & post-intervention comparisons",
-                  "Case notes (where applicable)",
-                  "Final portfolio or presentation"
+                  "Weekly executive journals",
+                  "Mentorship logs",
+                  "Boardroom session documentation",
+                  "Baseline & post-intervention business comparisons",
+                  "Executive briefings (where applicable)",
+                  "Final corporate portfolio or presentation"
                 ].map((item, i) => (
                   <div key={i} className="stagger-item bg-white p-3 rounded-xl border border-black/5 text-sm font-nunito text-brown-brand/90">
                     {item}
@@ -481,15 +481,15 @@ export default function InternshipPage() {
                 <h3 className="text-2xl md:text-3xl font-playfair font-bold text-white">Assessment</h3>
               </div>
               <p className="text-white/80 font-nunito mb-6 leading-relaxed relative z-10">
-                Interns are assessed across multiple dimensions:
+                Fellows are assessed across multiple dimensions:
               </p>
               <ul className="space-y-3 stagger-group relative z-10 mb-8">
                 {[
-                  "Reflective journals",
-                  "Supervisor evaluations",
-                  "Treatment plans and case studies",
-                  "Before-and-after analyses",
-                  "Final presentation or clinical portfolio"
+                  "Reflective executive journals",
+                  "Mentor evaluations",
+                  "Strategic execution plans and business case studies",
+                  "Before-and-after corporate impact analyses",
+                  "Final board presentation or executive portfolio"
                 ].map((item, i) => (
                   <li key={i} className="stagger-item flex items-start gap-3 text-white/90 font-nunito text-base">
                     <span className="w-1.5 h-1.5 rounded-full bg-amber-brand shrink-0 mt-2.5" />
@@ -511,7 +511,7 @@ export default function InternshipPage() {
                 <h3 className="text-2xl md:text-3xl font-playfair font-bold text-navy-brand">Ethical Standards</h3>
               </div>
               <p className="text-brown-brand/80 font-nunito mb-6 leading-relaxed">
-                Our programme is aligned with APA and BPS ethical guidelines, including:
+                Our fellowship is aligned with ICF ethical guidelines, including:
               </p>
               <ul className="space-y-3 stagger-group mb-8">
                 {[
@@ -527,7 +527,7 @@ export default function InternshipPage() {
                 ))}
               </ul>
               <div className="bg-red-50/50 p-4 rounded-2xl border border-red-100">
-                <p className="text-sm text-brown-brand/80 font-nunito leading-relaxed">Interns may not diagnose, practise independently, breach confidentiality, or exceed their scope of practice without supervision. <strong>Ethical practice is not optional — it is foundational.</strong></p>
+                <p className="text-sm text-brown-brand/80 font-nunito leading-relaxed">Fellows may not misrepresent qualifications, breach client confidentiality, or exceed their scope of advisory without mentorship. <strong>Ethical practice is not optional — it is foundational.</strong></p>
               </div>
             </div>
 
@@ -544,10 +544,10 @@ export default function InternshipPage() {
               Why Train at TSSG?
             </span>
             <h2 className="text-4xl md:text-6xl font-playfair font-bold mb-8 leading-[1.1] text-white">
-              We are building the next generation of trauma informed practitioners.
+              We are building the next generation of elite executive coaches.
             </h2>
             <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-3xl p-6 md:p-8 mb-10 text-left w-full max-w-2xl mx-auto stagger-group">
-              <p className="text-cream-brand mb-4 font-playfair text-xl italic">This is not a tick-box placement. When you train at The Safe Space, you are stepping into an environment where:</p>
+              <p className="text-cream-brand mb-4 font-playfair text-xl italic">This is not a generic certification. When you train at The Safe Space Global, you are stepping into an environment where:</p>
               <ul className="space-y-3">
                 <li className="stagger-item flex items-start gap-3 text-white/90 font-nunito text-base">
                   <span className="w-1.5 h-1.5 rounded-full bg-amber-brand shrink-0 mt-2" />
@@ -555,11 +555,11 @@ export default function InternshipPage() {
                 </li>
                 <li className="stagger-item flex items-start gap-3 text-white/90 font-nunito text-base">
                   <span className="w-1.5 h-1.5 rounded-full bg-amber-brand shrink-0 mt-2" />
-                  <span>Supervision is meaningful, not minimal</span>
+                  <span>Mentorship is meaningful, not minimal</span>
                 </li>
                 <li className="stagger-item flex items-start gap-3 text-white/90 font-nunito text-base">
                   <span className="w-1.5 h-1.5 rounded-full bg-amber-brand shrink-0 mt-2" />
-                  <span>You are challenged to grow clinically, ethically, and personally</span>
+                  <span>You are challenged to grow strategically, ethically, and as a leader</span>
                 </li>
                 <li className="stagger-item flex items-start gap-3 text-white/90 font-nunito text-base">
                   <span className="w-1.5 h-1.5 rounded-full bg-amber-brand shrink-0 mt-2" />
@@ -581,7 +581,7 @@ export default function InternshipPage() {
             </div>
 
             <p className="text-xs text-white/40 font-nunito mt-16 tracking-widest uppercase">
-              The Safe Space | Internship Programme | Unified Academic Edition | Revised 2025
+              The Safe Space Global | Executive Coach Fellowship | Unified Enterprise Edition | Revised 2026
             </p>
           </div>
         </div>

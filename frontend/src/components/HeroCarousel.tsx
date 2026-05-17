@@ -253,25 +253,25 @@ export default function HeroCarousel() {
     () => [
       {
         imageUrl: "/assets/hero_painted.jpg",
-        title: "Change the pattern. Break the cycle.",
+        title: "Change the pattern. Scale the enterprise.",
         description:
-          "A trauma informed space for healing and human development. Opening a new story for your future self.",
+          "A premier executive advisory firm for C-suite leadership and enterprise scaling. Opening a new strategic trajectory for your future organization.",
         primaryCta: {
           label: "Our Services",
           href: "/services",
           icon: <ChevronRight size={16} />,
         },
         secondaryCta: {
-          label: "Book a Session",
+          label: "Book Consultation",
           href: "/booking",
           icon: <BookOpen size={16} />,
         },
       },
       {
         imageUrl: "/assets/design_brief.jpg",
-        title: "A Storybook for Grown-Ups",
+        title: "Strategic Clarity for C-Suite Leaders",
         description:
-          "What you experienced as a child shaped you. What your child experiences now will shape them. We are here.",
+          "What your executive team decides today shapes your enterprise tomorrow. We provide the strategic clarity to lead with absolute confidence.",
         primaryCta: {
           label: "About Us",
           href: "/about",

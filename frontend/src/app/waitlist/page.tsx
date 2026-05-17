@@ -43,7 +43,7 @@ export default function WaitlistPage() {
       <section className="container max-w-4xl">
         <div className="text-center mb-16">
           <span className="text-amber-brand font-bold tracking-widest uppercase text-xs mb-6 block">
-            Store Waitlist
+            Executive Store Waitlist
           </span>
           <h1 className="text-5xl md:text-6xl font-playfair font-bold text-navy-brand mb-8 leading-tight">
             Be first to know when
@@ -51,7 +51,7 @@ export default function WaitlistPage() {
             new resources launch.
           </h1>
           <p className="mx-auto max-w-2xl text-xl text-brown-brand/70 font-nunito leading-relaxed">
-            Join the waitlist for upcoming wellness tools, journals, and new releases from The Safe Space.
+            Join the waitlist for upcoming executive tools, strategic planners, and new releases from The Safe Space Global.
             We will email you as soon as something new is ready.
           </p>
         </div>

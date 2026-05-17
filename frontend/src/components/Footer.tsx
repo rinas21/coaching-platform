@@ -23,13 +23,13 @@ type SiteSettingsResponse = {
 
 async function Footer() {
   const pillars = [
-    { name: "Children", link: "/services" },
-    { name: "Teenagers", link: "/services" },
-    { name: "Adults", link: "/services" },
-    { name: "Schools", link: "/services" },
-    { name: "Organisations", link: "/services" },
-    { name: "Communities", link: "/services" },
-    { name: "Parents", link: "/services" }
+    { name: "Executive Leadership", link: "/services" },
+    { name: "Business Scaling", link: "/services" },
+    { name: "Career Advancement", link: "/services" },
+    { name: "Corporate Workshops", link: "/services" },
+    { name: "Workplace Productivity", link: "/services" },
+    { name: "Peer Advisory", link: "/services" },
+    { name: "Life Coaching", link: "/services" }
   ];
 
   const shouldFetchSiteSettings =
@@ -87,8 +87,8 @@ async function Footer() {
                   />
                 </Link>
                 <p className="text-white/60 font-nunito leading-relaxed max-w-xs mx-auto md:mx-0">
-                  Building. Preventing. Healing. <br />
-                  A trauma informed space for human development and psychological wellbeing.
+                  Scaling. Optimizing. Leading. <br />
+                  A premier executive advisory firm for C-suite leadership, enterprise scaling, and organizational excellence.
                 </p>
                 {showSocialRow && (
                   <div className="flex gap-5 justify-center md:justify-start">
@@ -163,9 +163,9 @@ async function Footer() {
                 <ul className="flex flex-col gap-4 font-nunito text-sm">
                   <li><Link href="/about" className="text-white/70 hover:text-amber-brand transition-colors">About Us</Link></li>
                   <li><Link href="/team" className="text-white/70 hover:text-amber-brand transition-colors">Our Team</Link></li>
-                  <li><Link href="/internship" className="text-white/70 hover:text-amber-brand transition-colors">Fellowship & Internship</Link></li>
+                  <li><Link href="/internship" className="text-white/70 hover:text-amber-brand transition-colors">Executive Fellowship</Link></li>
                   <li><Link href="/testimonials" className="text-white/70 hover:text-amber-brand transition-colors">Client Stories</Link></li>
-                  <li><Link href="/store" className="text-white/70 hover:text-amber-brand transition-colors">Wellness Store</Link></li>
+                  <li><Link href="/store" className="text-white/70 hover:text-amber-brand transition-colors">Executive Store</Link></li>
                   <li><Link href="/login" className="text-white/70 hover:text-amber-brand transition-colors">Log in</Link></li>
                   <li><Link href="/account" className="text-white/70 hover:text-amber-brand transition-colors">My account</Link></li>
                 </ul>
@@ -199,7 +199,7 @@ async function Footer() {
               <div className="flex flex-wrap justify-center md:justify-end gap-6 md:gap-10 text-[10px] uppercase tracking-widest font-bold">
                 <Link href="/privacy" className="text-white/30 hover:text-white transition-colors">Privacy</Link>
                 <Link href="/terms" className="text-white/30 hover:text-white transition-colors">Terms</Link>
-                <Link href="/contact" className="text-white/30 hover:text-white transition-colors">Crisis Support</Link>
+                <Link href="/contact" className="text-white/30 hover:text-white transition-colors">Corporate Escalation</Link>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Terms of Service | The Safe Space Global",
-  description: "Simple terms for booking, attendance, cancellation, and website use.",
+  description: "Terms of service for executive advisory bookings, corporate retainers, cancellation policies, and platform use.",
 };
 
 export default function TermsPage() {
@@ -21,10 +21,10 @@ export default function TermsPage() {
           <section className="space-y-4">
             <h2 className="text-3xl font-playfair font-bold text-navy-brand">1. Nature of Services</h2>
             <p className="text-brown-brand/80 font-nunito leading-relaxed">
-              The Safe Space Global provides psychological support, therapy, educational resources, and professional training. <strong className="text-red-500">We are not an acute emergency service or a crisis center.</strong>
+              The Safe Space Global provides executive coaching, business strategy advisory, leadership masterclasses, and corporate training. <strong className="text-red-500">We are not a crisis center or an emergency medical service.</strong>
             </p>
             <p className="text-brown-brand/80 font-nunito leading-relaxed">
-              If you are experiencing a medical emergency, acute mental health crisis, or are at risk of harming yourself or others, please contact your local emergency services or a dedicated crisis hotline immediately.
+              Our advisory services focus on organizational strategy, executive performance, and leadership capacity building. They do not constitute formal medical, psychological, or psychiatric treatment.
             </p>
           </section>
 
@@ -69,7 +69,7 @@ export default function TermsPage() {
           <section className="space-y-4">
             <h2 className="text-3xl font-playfair font-bold text-navy-brand">6. Limitation of Liability</h2>
             <p className="text-brown-brand/80 font-nunito leading-relaxed">
-              To the fullest extent permitted by law, The Safe Space Global shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use of our website or services. The content on this site is for informational and educational purposes and does not substitute for professional medical or psychiatric advice.
+              To the fullest extent permitted by law, The Safe Space Global shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use of our website or advisory services. The content on this site is for informational and educational purposes and does not substitute for professional legal, financial, or medical advice.
             </p>
           </section>
 

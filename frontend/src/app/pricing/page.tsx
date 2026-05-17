@@ -3,34 +3,34 @@ import Link from "next/link";
 export const metadata = {
   title: "Pricing | The Safe Space Global",
   description:
-    "Transparent starting prices for consultations, school programmes, and workplace support.",
+    "Transparent starting prices for executive advisory, business scaling, and corporate leadership masterclasses.",
 };
 
 const PRICING_ROWS = [
   {
-    type: "Adult individual session",
-    price: "Starting from LKR 8,000",
-    includes: "50-minute consultation, goal setting, next-step recommendations.",
+    type: "Executive Leadership Coaching",
+    price: "Starting from LKR 25,000",
+    includes: "60-minute executive advisory, strategic roadblock removal, executive presence refinement.",
   },
   {
-    type: "Children & adolescents session",
-    price: "Starting from LKR 9,500",
-    includes: "50-minute session plus brief caregiver guidance where appropriate.",
+    type: "Business Scaling & Strategy",
+    price: "Starting from LKR 35,000",
+    includes: "60-minute intensive strategy, operational bottleneck analysis, growth framework alignment.",
   },
   {
-    type: "Couples session",
-    price: "Starting from LKR 12,000",
-    includes: "60-minute facilitated session with a structured action plan.",
+    type: "Co-Founder & Partnership Alignment",
+    price: "Starting from LKR 40,000",
+    includes: "90-minute facilitated session with a structured co-founder alignment and execution plan.",
   },
   {
-    type: "School wellbeing programme",
-    price: "Starting from LKR 45,000",
-    includes: "Programme planning, facilitation, and educator guidance per module.",
+    type: "Corporate Leadership Masterclass",
+    price: "Starting from LKR 150,000",
+    includes: "Masterclass planning, C-suite facilitation, and leadership framework implementation per module.",
   },
   {
-    type: "Workplace wellbeing workshop",
-    price: "Starting from LKR 65,000",
-    includes: "Needs-based workshop design and team delivery session.",
+    type: "Enterprise Team Alignment Workshop",
+    price: "Starting from LKR 250,000",
+    includes: "Custom corporate workshop design, organizational health assessment, and executive team delivery.",
   },
 ];
 
@@ -76,7 +76,7 @@ export default function PricingPage() {
           </div>
           <div>
             <p style={{ fontWeight: 700 }}>Do you offer packages?</p>
-            <p className="store-muted">For schools and workplaces, custom programme pricing is available after needs review.</p>
+            <p className="store-muted">For enterprise clients and corporate boards, custom retainer and workshop pricing is available after a strategic needs review.</p>
           </div>
           <div>
             <p style={{ fontWeight: 700 }}>How do I confirm the exact fee?</p>

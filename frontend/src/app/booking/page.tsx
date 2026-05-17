@@ -15,10 +15,10 @@ export default function BookingPage() {
           <div className="text-center mb-16">
             <span className="text-amber-brand font-bold tracking-widest uppercase text-xs mb-4 block">Reservations</span>
             <h1 className="text-5xl md:text-6xl font-playfair font-bold text-navy-brand mb-6 leading-tight">
-              Finding Time to Heal.
+              Strategic Executive Consultation.
             </h1>
             <p className="mx-auto max-w-2xl text-xl text-brown-brand/60 font-nunito leading-relaxed">
-              Choose a moment for yourself. Our calendar below is always open for those seeking a safe space to talk.
+              Choose a moment for strategic clarity. Our calendar below is always open for business leaders and professionals seeking elite executive advisory.
             </p>
           </div>
         </GsapReveal>

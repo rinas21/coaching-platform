@@ -80,20 +80,20 @@ export default async function BlogPage({
         <GsapReveal delay={0.1}>
           <div className="text-center px-6 max-w-4xl mx-auto relative z-10 mt-16">
             <span className="text-navy-brand font-bold tracking-widest uppercase text-xs mb-6 block underline decoration-navy-brand/30 underline-offset-8">
-              Blog & Community Voices
+              Executive Insights & Leadership Voices
             </span>
             <h1 className="text-5xl md:text-7xl font-playfair font-bold text-white mb-10 leading-tight">
-              Words That Heal. <br /> Stories That Connect.
+              Strategies That Scale. <br /> Stories That Lead.
             </h1>
             <div className="space-y-6 text-lg hidden md:block sm:text-xl text-white/90 font-nunito leading-relaxed max-w-3xl mx-auto">
               <p>
-                Welcome to the TSSG Blog a space where knowledge meets lived experience, and where clinical insight sits alongside the real, human stories of people navigating life, healing, and growth.
+                Welcome to the TSSG Executive Blog—a space where elite business strategy meets lived leadership experience, and where executive insight sits alongside the real stories of leaders navigating enterprise scaling, boardroom dynamics, and professional growth.
               </p>
               <p>
-                Here you will find articles from our team, resources for everyday wellbeing, and most importantly voices from our community.
+                Here you will find articles from our master advisors, frameworks for organizational execution, and most importantly voices from our executive community.
               </p>
               <p className="font-playfair italic text-xl md:text-2xl text-white mt-8">
-                Because sometimes the most powerful thing you can read is knowing that someone else has been where you are.
+                Because sometimes the most powerful strategic advantage is knowing how another leader navigated the exact challenge you face.
               </p>
             </div>
           </div>
@@ -105,24 +105,24 @@ export default async function BlogPage({
         <GsapReveal direction="up">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <span className="text-xs font-bold text-amber-brand uppercase tracking-widest mb-4 block">
-              Clinical Expertise
+              Executive Expertise
             </span>
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-navy-brand mb-8">
               From Our Team
             </h2>
             <p className="text-lg md:text-xl text-brown-brand/80 font-playfair italic leading-relaxed mb-12">
-              Our practitioners and founder write regularly on topics that matter grounded in clinical expertise, neuroscience, and the realities of everyday life in Sri Lanka and beyond.
+              Our master coaches and founder write regularly on topics that matter—grounded in executive expertise, organizational behavioral science, and the realities of scaling global enterprises.
             </p>
 
             <div className="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto text-left mb-12">
               {[
-                "Trauma, Complex PTSD, and intergenerational patterns",
-                "Child development, emotional regulation, and parenting",
-                "Anxiety, burnout, and stress in modern life",
-                "Nervous system science made accessible",
-                "SEL, resilience, and skills for young people",
-                "Mental health in schools and workplaces",
-                "Behind the programmes at TSSG"
+                "Executive Presence, Boardroom Dynamics, and High-Stakes Negotiation",
+                "Organizational Alignment, C-Suite Succession, and Leadership Development",
+                "Executive Energy Management, Burnout Prevention, and Sustainable Scaling",
+                "Organizational Behavioral Science Made Accessible",
+                "Strategic Decision Making, Resilience, and High-Performance Frameworks",
+                "Corporate Culture Alignment and Enterprise Team Health",
+                "Behind the Executive Masterclasses at TSSG"
               ].map((item) => (
                 <div key={item} className="flex gap-4 items-start text-[11px] md:text-xs font-bold text-navy-brand/80 uppercase tracking-widest leading-relaxed bg-white p-5 rounded-2xl border border-amber-brand/10 shadow-sm hover:shadow-md transition-shadow">
                   <span className="text-amber-brand mt-1 text-[10px]">●</span>
@@ -171,19 +171,19 @@ export default async function BlogPage({
             <div className="relative z-10 grid lg:grid-cols-2 gap-16 items-start">
               <div>
                 <span className="text-xs font-bold text-amber-brand uppercase tracking-widest mb-4 block">
-                  Your Story Matters
+                  Your Leadership Journey Matters
                 </span>
                 <h3 className="text-3xl sm:text-5xl font-playfair font-bold text-navy-brand mb-8 leading-tight">
-                  Community Voices
+                  Executive Community Voices
                 </h3>
 
                 <p className="text-base sm:text-lg text-brown-brand/80 font-nunito mb-6 leading-relaxed">
-                  Healing is not a solo journey. And sometimes, the most powerful thing we can oﬀer each other is the truth of our own experience.
+                  Leadership is not a solo journey. And sometimes, the most powerful thing we can oﬀer each other is the strategic truth of our own executive experience.
                 </p>
 
                 <p className="text-base sm:text-lg text-brown-brand/80 font-nunito mb-10 leading-relaxed">
-                  We invite members of our community clients past and present, parents, young people, professionals, and anyone touched by the themes of mental health, trauma, and growth to share their stories here. <br /><br />
-                  <span className="font-playfair italic text-navy-brand text-xl">Your words may be exactly what someone else needs to read today.</span>
+                  We invite members of our community—clients past and present, founders, C-suite executives, business leaders, and anyone touched by the themes of corporate scaling, leadership challenges, and enterprise growth—to share their stories here. <br /><br />
+                  <span className="font-playfair italic text-navy-brand text-xl">Your words may be exactly what another leader needs to read today.</span>
                 </p>
 
                 <div className="space-y-10 text-brown-brand/80 font-nunito text-sm sm:text-base leading-relaxed bg-[#FDFBF7] p-8 rounded-3xl border border-amber-brand/5">
@@ -191,11 +191,11 @@ export default async function BlogPage({
                     <h4 className="font-bold text-navy-brand uppercase tracking-widest text-xs mb-4">What we welcome:</h4>
                     <ul className="space-y-3">
                       {[
-                        "Personal journeys with mental health, trauma, or healing",
-                        "Experiences as a parent, caregiver, or educator",
-                        "Stories of resilience, change, and growth",
-                        "Reflections on seeking help for the first time",
-                        "Cultural experiences of mental health in Sri Lanka and beyond"
+                        "Personal journeys with executive leadership, scaling bottlenecks, or organizational turnarounds",
+                        "Experiences as a founder, board member, or C-suite executive",
+                        "Stories of corporate resilience, pivot strategies, and enterprise growth",
+                        "Reflections on engaging executive advisory for the first time",
+                        "Global business dynamics and cross-cultural leadership experiences"
                       ].map((item) => (
                         <li key={item} className="flex gap-3 items-start">
                           <span className="text-amber-brand mt-1.5 text-[8px]">●</span>
@@ -213,7 +213,7 @@ export default async function BlogPage({
                         "Maximum 800 words",
                         "Written in first person",
                         "Please do not include identifying details of others without their consent",
-                        "Avoid detailed descriptions of self-harm, crisis episodes, or graphic content focus on the experience and the journey, not the detail"
+                        "Avoid sharing proprietary corporate trade secrets or confidential financial data—focus on the leadership experience and strategic journey, not the confidential details"
                       ].map((item) => (
                         <li key={item} className="flex gap-3 items-start">
                           <span className="text-amber-brand mt-1.5 text-[8px]">●</span>
@@ -228,7 +228,7 @@ export default async function BlogPage({
                       All submissions are reviewed by our team before publishing. We may lightly edit for clarity and length, and will always seek your approval before any changes go live.
                     </p>
                     <p className="text-xs italic text-brown-brand/60">
-                      Please note: Community Voices is a storytelling space, not a crisis support channel. If you are in distress, please visit our Contact page for support resources.
+                      Please note: Executive Community Voices is a leadership storytelling space, not an urgent corporate escalation channel. If you require immediate advisory, please visit our Contact page.
                     </p>
                   </div>
                 </div>
@@ -257,7 +257,7 @@ export default async function BlogPage({
               Resources
             </h3>
             <p className="text-lg text-brown-brand/80 font-nunito leading-relaxed mb-8">
-              A curated collection of reads, tools, and references to support your mental health journey for individuals, parents, educators, and professionals.
+              A curated collection of reads, strategic tools, and references to support your executive leadership journey for founders, board members, and corporate professionals.
             </p>
             <p className="text-xs font-bold text-sage-brand tracking-widest uppercase mb-10">
               Updated regularly by the TSSG team.
@@ -272,10 +272,10 @@ export default async function BlogPage({
               Content Notice
             </h3>
             <p className="text-lg text-brown-brand/80 font-nunito leading-relaxed mb-6">
-              Some articles and community stories on this page discuss themes including trauma, anxiety, grief, and complex mental health experiences. We have done our best to handle all content with care and sensitivity. Where relevant, individual posts carry content notices at the top.
+              Some articles and community stories on this page discuss high-stakes corporate turnarounds, executive burnout, boardroom conflict, and complex leadership challenges. We have done our best to handle all content with strategic clarity and professional discretion. Where relevant, individual posts carry content notices at the top.
             </p>
             <p className="text-lg text-brown-brand/80 font-playfair italic leading-relaxed mb-10">
-              If anything you read brings up diﬃcult feelings, please know that support is available.
+              If anything you read brings up diﬃcult questions about your business, please know that strategic advisory is available.
             </p>
             <Link href="/contact" className="btn-outline">
               Reach Out to Us <ChevronRightIcon size={16} />

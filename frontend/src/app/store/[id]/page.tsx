@@ -19,7 +19,7 @@ function formatMoney(cents: number) {
 type StoreKind = "therapy" | "course" | "material" | "bundle";
 
 const KIND_META: Record<StoreKind, { label: string; color: string; bg: string }> = {
-  therapy: { label: "Therapy", color: "text-navy-brand", bg: "bg-sage-brand/10" },
+  therapy: { label: "Coaching", color: "text-navy-brand", bg: "bg-sage-brand/10" },
   course: { label: "Course", color: "text-amber-brand", bg: "bg-amber-brand/10" },
   material: { label: "Material", color: "text-brown-brand", bg: "bg-brown-brand/10" },
   bundle: { label: "Bundle", color: "text-orange-brand", bg: "bg-orange-brand/10" },
@@ -271,7 +271,7 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
                           </h3>
                         </Link>
                         <p className="text-[0.95rem] text-gray-500 leading-relaxed line-clamp-2">
-                          {rel.description || "A curated wellness resource from our space to yours."}
+                          {rel.description || "A curated executive resource from our boardroom to yours."}
                         </p>
 
                         <div className="flex items-center justify-between mt-4">
