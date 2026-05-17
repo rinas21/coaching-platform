@@ -265,10 +265,10 @@ export default function AccountPage() {
               <div className="card p-6 bg-navy-brand text-white border-none">
                 <h3 className="text-white text-lg mb-4 flex items-center gap-2">
                   <ShoppingBag size={18} className="text-amber-brand" />
-                  Wellness Store
+                  Executive Store
                 </h3>
                 <p className="text-white/70 text-sm mb-6 leading-relaxed">
-                  Explore our curated selection of journals, tools, and therapeutic resources.
+                  Explore our curated selection of executive tools, leadership frameworks, and business scaling resources.
                 </p>
                 <Link href="/store" className="btn-primary w-full py-3 text-sm">
                   Visit Store <ChevronRight size={16} />

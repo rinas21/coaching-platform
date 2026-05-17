@@ -32,7 +32,7 @@ type EventListItem = {
 type EventListJson = { data?: EventListItem[] };
 
 function getEventDescription(description?: string | EventDescriptionBlock[]): string {
-  if (!description) return "Join us for this transformative session. Experience healing and growth in a safe, guided space.";
+  if (!description) return "Join us for this transformative executive session. Experience leadership breakthrough and enterprise growth in a professional advisory space.";
   if (typeof description === "string") return description;
 
   if (Array.isArray(description)) {
@@ -71,7 +71,7 @@ export default async function EventsPage() {
               text="Events & Workshops"
             />
             <p className="mx-auto max-w-[700px] text-lg md:text-xl text-brown-brand/70 font-nunito leading-relaxed mb-10">
-              Join our safe, supportive environment for healing circles, professional training, and community gatherings designed to nurture your mental well-being.
+              Join our elite, high-performance environment for executive masterclasses, boardroom strategy sessions, and leadership gatherings designed to accelerate your business growth.
             </p>
           </GsapReveal>
         </div>
@@ -176,7 +176,7 @@ export default async function EventsPage() {
               Never miss an opportunity to connect.
             </h2>
             <p className="text-white/70 font-nunito text-lg mb-0">
-              Subscribe to our newsletter to receive early bird invites and updates about our upcoming webinars and community gatherings.
+              Subscribe to our newsletter to receive early bird invites and updates about our upcoming executive webinars, boardroom masterminds, and leadership gatherings.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">

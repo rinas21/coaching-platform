@@ -10,28 +10,28 @@ const config: Config = {
     extend: {
       colors: {
         amber: {
-          brand: "#C8893A",
+          brand: "#D4AF37", // Rich executive brushed gold
         },
         navy: {
-          brand: "#1A2A4A",
+          brand: "#0B192C", // Deep executive midnight slate
         },
         gold: {
-          brand: "#D4A853",
+          brand: "#F1C40F", // Vibrant accent gold
         },
         orange: {
-          brand: "#E07B39",
+          brand: "#E67E22", // Warm energetic bronze
         },
         cream: {
-          brand: "#FAF0DC",
+          brand: "#F8F9FA", // Crisp corporate platinum/off-white
         },
         sage: {
-          brand: "#7A9E7E",
+          brand: "#4A5D6E", // Sophisticated slate gray
         },
         teal: {
-          brand: "#4A9E99",
+          brand: "#1ABC9C", // Modern executive teal
         },
         brown: {
-          brand: "#6B4226",
+          brand: "#1E293B", // Sleek charcoal slate
         },
       },
       fontFamily: {

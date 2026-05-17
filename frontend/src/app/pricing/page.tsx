@@ -30,7 +30,7 @@ const PRICING_ROWS = [
   {
     type: "Enterprise Team Alignment Workshop",
     price: "Starting from LKR 250,000",
-    includes: "Custom corporate workshop design, organizational health assessment, and executive team delivery.",
+    includes: "Custom corporate workshop design, organizational strategy assessment, and executive team delivery.",
   },
 ];
 

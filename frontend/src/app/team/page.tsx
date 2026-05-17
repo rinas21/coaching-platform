@@ -65,7 +65,7 @@ export default async function TeamPage() {
     "ALIFA AMER": {
       name: "Alifa Amer",
       role: "Creative & Brand Strategy Lead",
-      bio: "Alifa is The Safe Space Global's Creative Lead and one of the firm's founding fellows. With her background spanning organizational psychology and executive branding, she designs leadership masterclasses that are as engaging as they are high-impact."
+      bio: "Alifa is The Safe Space Global's Creative Lead and one of the firm's founding fellows. With her background spanning organizational behavior and executive branding, she designs leadership masterclasses that are as engaging as they are high-impact."
     },
     "AQSA ATIQ": {
       name: "Aqsa Atiq",

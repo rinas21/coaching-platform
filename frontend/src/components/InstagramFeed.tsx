@@ -62,7 +62,7 @@ function FeedHeader() {
             Follow our journey on Instagram.
           </h2>
           <p className="text-lg text-brown-brand/70 font-nunito">
-            Insights on neuroscience, resilience, and the quiet work of healing shared weekly. Join us @thesafespaceglobal.
+            Insights on executive leadership, business resilience, and enterprise scaling shared weekly. Join us @thesafespaceglobal.
           </p>
         </GsapReveal>
       </div>

@@ -6,13 +6,13 @@
 
 @layer base {
   :root {
-    --bg-color: #FAF0DC;
-    --text-primary: #6B4226;
-    --primary: #C8893A;
-    --secondary: #1A2A4A;
-    --accent: #D4A853;
-    --sage: #7A9E7E;
-    --teal: #4A9E99;
+    --bg-color: #F8F9FA;
+    --text-primary: #1E293B;
+    --primary: #D4AF37;
+    --secondary: #0B192C;
+    --accent: #F1C40F;
+    --sage: #4A5D6E;
+    --teal: #1ABC9C;
     --font-playfair: 'Playfair Display', serif;
     --font-nunito: 'Nunito', sans-serif;
     --font-montserrat: 'Montserrat', sans-serif;

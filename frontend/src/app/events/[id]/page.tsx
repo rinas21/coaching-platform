@@ -225,7 +225,7 @@ export default async function EventDetailPage({
                   )}
 
                   <p className="mt-6 text-center text-xs text-brown-brand/40 font-semibold px-4">
-                    By registering, you agree to our terms and community guidelines focused on mental safety.
+                    By registering, you agree to our terms and professional community guidelines focused on executive confidentiality.
                   </p>
                 </div>
 
