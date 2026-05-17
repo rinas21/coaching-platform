@@ -27,14 +27,14 @@ export function CrisisSafetyBlock() {
         For urgent corporate escalation, contact your designated senior advisor
       </h2>
       <p style={{ color: "var(--text-2)", marginBottom: "0.8rem" }}>
-        The Safe Space Global operates on a scheduled executive advisory basis. If your enterprise is experiencing an immediate operational crisis or high-stakes boardroom conflict, please contact our corporate escalation desk directly.
+        Apex Executive Advisory operates on a scheduled executive advisory basis. If your enterprise is experiencing an immediate operational crisis or high-stakes boardroom conflict, please contact our corporate escalation desk directly.
       </p>
       <ul style={{ marginLeft: "1.25rem", color: "var(--text-2)", lineHeight: 1.8 }}>
         <li>
           Corporate Crisis Desk: <a href="tel:+94112345678">+94 11 234 5678</a>
         </li>
         <li>
-          Executive Advisory Escalation: <a href="mailto:escalation@thesafespaceglobal.com">escalation@thesafespaceglobal.com</a>
+          Executive Advisory Escalation: <a href="mailto:escalation@apexexecutiveadvisory.com">escalation@apexexecutiveadvisory.com</a>
         </li>
         <li>
           Senior Boardroom Support: <a href="tel:+94771234567">+94 77 123 4567</a>

@@ -299,7 +299,7 @@ export default function ServicesPage() {
               Executive coaching and business strategy that drives measurable results.
             </h1>
             <p className="services-hero-subtitle mt-6 text-lg md:text-xl text-white/75 font-nunito leading-relaxed max-w-2xl">
-              Whether you are a C-suite executive seeking strategic clarity, an entrepreneur scaling your business, or a professional navigating career advancement, The Safe Space Global has a pathway designed for you.
+              Whether you are a C-suite executive seeking strategic clarity, an entrepreneur scaling your business, or a professional navigating career advancement, Apex Executive Advisory has a pathway designed for you.
             </p>
 
             <div className="services-hero-actions mt-10 flex flex-col sm:flex-row gap-4">

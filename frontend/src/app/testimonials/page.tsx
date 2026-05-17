@@ -24,7 +24,7 @@ const TESTIMONIAL_OVERRIDES: TestimonialRecord[] = [
     documentId: "override-1",
     Name: "Executive VP, Tech Enterprise",
     Date: "2025-08-12",
-    testimonials: "Working with The Safe Space Global transformed our leadership team. The strategic clarity and executive coaching helped us scale our operations while maintaining alignment."
+    testimonials: "Working with Apex Executive Advisory transformed our leadership team. The strategic clarity and executive coaching helped us scale our operations while maintaining alignment."
   },
   {
     documentId: "override-2",
@@ -82,7 +82,7 @@ export default async function TestimonialsPage() {
               What Leaders <br className="block md:hidden" /> Are Saying.
             </h1>
             <p className="mx-auto max-w-3xl text-lg md:text-xl text-brown-brand/70 font-nunito leading-relaxed italic max-w-[90%] md:max-w-3xl">
-              &quot;At The Safe Space Global, the executive advisory we provide is only meaningful because
+              &quot;At Apex Executive Advisory, the executive advisory we provide is only meaningful because
               of the leaders who trust us with their organizations.&quot;
             </p>
           </div>

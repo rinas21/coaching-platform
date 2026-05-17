@@ -30,7 +30,7 @@ const STATIC_FALLBACK_POSTS: IgPost[] = [
     likes: "250",
     comments: "15",
     permalink: SITE_INSTAGRAM_PROFILE_URL,
-    caption: "Healing is a pattern of safety, resilience, and growth. Join us @thesafespaceglobal.",
+    caption: "Leadership is a pattern of strategy, resilience, and growth. Join us @apexexecutiveadvisory.",
   },
   {
     id: "static-2",
@@ -62,7 +62,7 @@ function FeedHeader() {
             Follow our journey on Instagram.
           </h2>
           <p className="text-lg text-brown-brand/70 font-nunito">
-            Insights on executive leadership, business resilience, and enterprise scaling shared weekly. Join us @thesafespaceglobal.
+            Insights on executive leadership, business resilience, and enterprise scaling shared weekly. Join us @apexexecutiveadvisory.
           </p>
         </GsapReveal>
       </div>
@@ -165,7 +165,7 @@ function InstagramApiGrid() {
           const hasFallback = fallbackAvailableRef.current;
           if (!hasFallback) {
             setPosts(STATIC_FALLBACK_POSTS);
-            setError("Latest Instagram posts are unavailable. Showing highlights from our space.");
+            setError("Latest Instagram posts are unavailable. Showing highlights from our firm.");
           } else {
             setError("Latest Instagram posts are unavailable. Showing previous posts.");
           }
@@ -175,7 +175,7 @@ function InstagramApiGrid() {
           const hasFallback = fallbackAvailableRef.current;
           if (!hasFallback) {
             setPosts(STATIC_FALLBACK_POSTS);
-            setError("Latest Instagram posts are unavailable. Showing highlights from our space.");
+            setError("Latest Instagram posts are unavailable. Showing highlights from our firm.");
           } else {
             setError("Latest Instagram posts are unavailable. Showing previous posts.");
           }
@@ -242,7 +242,7 @@ function InstagramApiGrid() {
 
                   <div className="mt-6 pb-2 text-center">
                     <p className="font-playfair italic text-navy-brand/60 text-sm line-clamp-2">
-                      {post.caption || "From the Space"}
+                      {post.caption || "From Apex Executive"}
                     </p>
                     <div className="mt-2 w-8 h-[1px] bg-amber-brand/30 mx-auto" />
                   </div>

@@ -156,7 +156,7 @@ export default function ContactPage() {
           If you require urgent corporate intervention...
         </h2>
         <p className="text-brown-brand/70 font-nunito mb-16 max-w-2xl mx-auto text-sm md:text-base">
-          The Safe Space Global provides priority executive advisory. For immediate business
+          Apex Executive Advisory provides priority executive advisory. For immediate business
           turnarounds, high-stakes boardroom conflict resolution, or urgent crisis management,
           please contact our dedicated escalation lines.
         </p>

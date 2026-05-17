@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Pricing | The Safe Space Global",
+  title: "Pricing | Apex Executive Advisory",
   description:
     "Transparent starting prices for executive advisory, business scaling, and corporate leadership masterclasses.",
 };

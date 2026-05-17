@@ -106,13 +106,13 @@ export default function Preloader() {
           ref={textRef}
           className="text-4xl md:text-6xl font-playfair font-bold text-cream-brand translate-y-12 opacity-0"
         >
-          The Safe Space
+          Apex Executive
         </h1>
         <p
           ref={subtextRef}
           className="text-amber-brand mt-4 font-nunito tracking-widest uppercase text-sm translate-y-8 opacity-0"
         >
-          Global
+          Advisory
         </p>
       </div>
     </div>

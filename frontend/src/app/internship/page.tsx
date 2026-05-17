@@ -220,7 +220,7 @@ export default function InternshipPage() {
             Train Where the <br className="hidden md:block" /> Business Transformation Is Real.
           </h1>
           <p className="intern-hero-subtitle mx-auto max-w-2xl text-lg md:text-xl text-white/85 font-nunito leading-relaxed">
-            The Safe Space Global Executive Coach Fellowship is not a passive program. It is
+            Apex Executive Advisory Executive Coach Fellowship is not a passive program. It is
             a structured, mentored, and deeply intentional certification pathway
             designed to shape ethical, strategic, and practice-ready executive coaches
             and business advisors.
@@ -541,13 +541,13 @@ export default function InternshipPage() {
 
           <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
             <span className="inline-block bg-white/10 backdrop-blur-md text-amber-brand font-bold tracking-widest uppercase text-[11px] px-4 py-2 rounded-full mb-6 border border-white/15">
-              Why Train at TSSG?
+              Why Train at Apex?
             </span>
             <h2 className="text-4xl md:text-6xl font-playfair font-bold mb-8 leading-[1.1] text-white">
               We are building the next generation of elite executive coaches.
             </h2>
             <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-3xl p-6 md:p-8 mb-10 text-left w-full max-w-2xl mx-auto stagger-group">
-              <p className="text-cream-brand mb-4 font-playfair text-xl italic">This is not a generic certification. When you train at The Safe Space Global, you are stepping into an environment where:</p>
+              <p className="text-cream-brand mb-4 font-playfair text-xl italic">This is not a generic certification. When you train at Apex Executive Advisory, you are stepping into an environment where:</p>
               <ul className="space-y-3">
                 <li className="stagger-item flex items-start gap-3 text-white/90 font-nunito text-base">
                   <span className="w-1.5 h-1.5 rounded-full bg-amber-brand shrink-0 mt-2" />
@@ -581,7 +581,7 @@ export default function InternshipPage() {
             </div>
 
             <p className="text-xs text-white/40 font-nunito mt-16 tracking-widest uppercase">
-              The Safe Space Global | Executive Coach Fellowship | Unified Enterprise Edition | Revised 2026
+              Apex Executive Advisory | Executive Coach Fellowship | Unified Enterprise Edition | Revised 2026
             </p>
           </div>
         </div>

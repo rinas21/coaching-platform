@@ -51,7 +51,7 @@ export default function WaitlistPage() {
             new resources launch.
           </h1>
           <p className="mx-auto max-w-2xl text-xl text-brown-brand/70 font-nunito leading-relaxed">
-            Join the waitlist for upcoming executive tools, strategic planners, and new releases from The Safe Space Global.
+            Join the waitlist for upcoming executive tools, strategic planners, and new releases from Apex Executive Advisory.
             We will email you as soon as something new is ready.
           </p>
         </div>

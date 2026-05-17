@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Privacy Policy | The Safe Space Global",
-  description: "How The Safe Space Global collects, uses, and protects your personal information.",
+  title: "Privacy Policy | Apex Executive Advisory",
+  description: "How Apex Executive Advisory collects, uses, and protects your personal information.",
 };
 
 export default function PrivacyPage() {
@@ -11,7 +11,7 @@ export default function PrivacyPage() {
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="space-y-6">
             <p className="text-lg text-brown-brand/80 font-nunito">
-              At The Safe Space Global, we take your privacy and confidentiality seriously. This Privacy Policy outlines how we collect, use, store, and protect your personal information when you use our website, services, or communicate with our team.
+              At Apex Executive Advisory, we take your privacy and confidentiality seriously. This Privacy Policy outlines how we collect, use, store, and protect your personal information when you use our website, services, or communicate with our team.
             </p>
             <p className="text-sm font-bold uppercase tracking-widest text-amber-brand">
               Last updated: May 2026

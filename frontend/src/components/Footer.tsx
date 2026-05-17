@@ -193,7 +193,7 @@ async function Footer() {
             {/* Bottom Bar */}
             <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
               <p className="text-[10px] uppercase tracking-widest text-white/30 font-bold">
-                &copy; {new Date().getFullYear()} The Safe Space Global. Handcrafted for Resilience.
+                &copy; {new Date().getFullYear()} Apex Executive Advisory. Handcrafted for Excellence.
               </p>
               <WincoreCredit />
               <div className="flex flex-wrap justify-center md:justify-end gap-6 md:gap-10 text-[10px] uppercase tracking-widest font-bold">

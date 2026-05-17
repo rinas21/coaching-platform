@@ -246,7 +246,7 @@ export default function AccountPage() {
                 <div className="w-24 h-24 bg-navy-brand text-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl text-3xl font-playfair font-bold">
                   {data.user.displayName?.[0] || data.user.email[0].toUpperCase()}
                 </div>
-                <h2 className="text-2xl mb-1">{data.user.displayName || "Safe Space Member"}</h2>
+                <h2 className="text-2xl mb-1">{data.user.displayName || "Apex Member"}</h2>
                 <p className="text-brown-brand/60 flex items-center justify-center gap-2 mb-8">
                   <Mail size={14} /> {data.user.email}
                 </p>

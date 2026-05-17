@@ -24,7 +24,7 @@ export default function AboutPage() {
             Most leaders who find us are not looking for generic advice. They are looking for strategic breakthroughs.
           </p>
           <p className="relative mt-10 z-10 mx-auto max-w-3xl text-lg sm:text-xl text-white font-nunito leading-relaxed">
-            The Safe Space Global is a premier executive and business coaching firm based in Sri Lanka, working with leaders, entrepreneurs, and organizations across the world.
+            Apex Executive Advisory is a premier executive and business coaching firm based in Sri Lanka, working with leaders, entrepreneurs, and organizations across the world.
           </p>
         </div>
       </div>
@@ -47,7 +47,7 @@ export default function AboutPage() {
                 patterns. Often systemic. Often invisible. Always shapeable.
               </p>
               <p>
-                At The Safe Space Global, we do not just support leaders in the present. We help them recognize, understand, and optimize the strategic patterns that influence how they
+                At Apex Executive Advisory, we do not just support leaders in the present. We help them recognize, understand, and optimize the strategic patterns that influence how they
                 lead their teams and scale their enterprises. When those patterns begin to change, the impact extends beyond the
                 individual into teams, entire organizations, and future industry leadership.
               </p>
@@ -170,11 +170,11 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto mb-40">
             <div className="relative bg-white p-12 md:p-20 rounded-[3rem] shadow-xl border border-amber-brand/10 bg-[url('https://www.transparenttextures.com/patterns/old-mathematics.png')] bg-opacity-5">
               <span className="text-amber-brand font-bold text-[10px] uppercase tracking-[0.2em] mb-12 block text-center">
-                A Note from Zahra
+                A Note from Sophia
               </span>
               <div className="space-y-8 text-xl md:text-2xl font-playfair text-navy-brand leading-relaxed italic text-center">
                 <p>
-                  &quot;The work at The Safe Space Global did not begin with generic theories. It began with a commitment to strategic excellence.&quot;
+                  &quot;The work at Apex Executive Advisory did not begin with generic theories. It began with a commitment to strategic excellence.&quot;
                 </p>
                 <p>
                   &quot;Across leaders, teams, and enterprises, the same growth bottlenecks appeared: difficulties with organizational alignment, strategic communication, and execution scaling.&quot;

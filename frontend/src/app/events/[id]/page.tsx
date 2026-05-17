@@ -144,7 +144,7 @@ export default async function EventDetailPage({
                     ) : (
                       <Video size={20} className="text-amber-brand" />
                     )}
-                    <span>{attrs.location || (attrs.type === "Physical" ? "The Safe Space Global Studio" : "Online via Zoom")}</span>
+                    <span>{attrs.location || (attrs.type === "Physical" ? "Apex Executive Advisory Studio" : "Online via Zoom")}</span>
                   </div>
                 </div>
               </div>

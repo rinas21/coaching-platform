@@ -7,7 +7,7 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import "./globals.css";
 
 export const metadata = {
-  title: "The Safe Space Global | Executive Coaching & Business Advisory",
+  title: "Apex Executive Advisory | Executive Coaching & Business Advisory",
   description:
     "A premier executive coaching and business strategy advisory firm based in Sri Lanka, working with C-suite leaders, founders, and global enterprises.",
 };

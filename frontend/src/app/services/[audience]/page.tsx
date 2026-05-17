@@ -33,8 +33,8 @@ export async function generateMetadata({ params }: { params: Promise<{ audience:
   const resolved = await params;
   const label = audienceLabelFromSlug(resolved.audience) || "Services";
   return {
-    title: `${label} Services | The Safe Space Global`,
-    description: `${label} support services from The Safe Space Global.`,
+    title: `${label} Services | Apex Executive Advisory`,
+    description: `${label} support services from Apex Executive Advisory.`,
   };
 }
 

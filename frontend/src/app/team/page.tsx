@@ -61,20 +61,20 @@ function parseList(value?: string[] | string): string {
 
 export default async function TeamPage() {
   const TEAM_OVERRIDES: Record<string, { role?: string; name?: string; bio?: string }> = {
-    "AAMINA SAMEER": { name: "Aamina Sameer", role: "Executive Presence & Boardroom Dynamics Lead" },
+    "AAMINA SAMEER": { name: "Victoria Sterling", role: "Executive Presence & Boardroom Dynamics Lead" },
     "ALIFA AMER": {
-      name: "Alifa Amer",
+      name: "Alexander Vance",
       role: "Creative & Brand Strategy Lead",
-      bio: "Alifa is The Safe Space Global's Creative Lead and one of the firm's founding fellows. With her background spanning organizational behavior and executive branding, she designs leadership masterclasses that are as engaging as they are high-impact."
+      bio: "Alexander is Apex Executive Advisory's Creative Lead and one of the firm's founding fellows. With his background spanning organizational behavior and executive branding, he designs leadership masterclasses that are as engaging as they are high-impact."
     },
     "AQSA ATIQ": {
-      name: "Aqsa Atiq",
+      name: "Elena Rostova",
       role: "Head of Executive Programmes",
-      bio: "Aqsa works with C-suite leaders and founders to build organizational self-awareness, leadership resilience, and the strategic skills to handle high-stakes corporate execution."
+      bio: "Elena works with C-suite leaders and founders to build organizational self-awareness, leadership resilience, and the strategic skills to handle high-stakes corporate execution."
     },
-    "NABEEHA HUSSAIN": { name: "Nabeeha Hussain", role: "Executive Leadership Facilitator" },
+    "NABEEHA HUSSAIN": { name: "Marcus Thorne", role: "Executive Leadership Facilitator" },
     "ZAHRA IRAM MASUD": {
-      name: "Zahra Iram Masud",
+      name: "Sophia Lin",
       role: "Founder & Managing Director",
       bio: "Her executive advisory is guided by one principle: organizational clarity and leadership alignment are the foundation of enterprise success."
     }
@@ -98,7 +98,7 @@ export default async function TeamPage() {
               The advisors behind the transformation.
             </h1>
             <p className="mx-auto max-w-3xl text-xl text-brown-brand/70 font-nunito leading-relaxed">
-              At The Safe Space Global, every advisor is chosen for elite business acumen and for something harder to define: the ability to provide absolute strategic clarity in high-stakes corporate environments. We work together, under structured peer advisory, toward enterprise outcomes that matter beyond the boardroom.
+              At Apex Executive Advisory, every advisor is chosen for elite business acumen and for something harder to define: the ability to provide absolute strategic clarity in high-stakes corporate environments. We work together, under structured peer advisory, toward enterprise outcomes that matter beyond the boardroom.
             </p>
           </div>
         </GsapReveal>

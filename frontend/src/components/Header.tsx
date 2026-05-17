@@ -266,12 +266,12 @@ function Navbar() {
             <Link
               href="/"
               className="inline-flex items-center justify-center rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-brand/60"
-              aria-label="The Safe Space Global — Home"
+              aria-label="Apex Executive Advisory — Home"
               onClick={onLogoNavigate}
             >
               <Image
                 src={Logo}
-                alt="TSSG Logo"
+                alt="Apex Executive Advisory Logo"
                 width={96}
                 height={96}
                 className="h-20 w-20 md:h-28 md:w-28 object-contain transition-all duration-300"
@@ -423,12 +423,12 @@ function Navbar() {
           <Link
             href="/"
             className="inline-flex rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-brand/60"
-            aria-label="The Safe Space Global — Home"
+            aria-label="Apex Executive Advisory — Home"
             onClick={onLogoNavigate}
           >
             <Image
               src={Logo}
-              alt=""
+              alt="Apex Executive Advisory Logo"
               width={80}
               height={80}
               className="h-20 w-20 object-contain"

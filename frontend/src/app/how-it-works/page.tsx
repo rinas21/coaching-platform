@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "How It Works | The Safe Space Global",
+  title: "How It Works | Apex Executive Advisory",
   description:
     "What to expect before you book: strategic onboarding, executive confidentiality, cancellation policy, and online vs boardroom advisory.",
 };

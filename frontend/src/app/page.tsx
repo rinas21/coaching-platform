@@ -78,7 +78,7 @@ export default async function Home() {
                 className="font-bold text-sm md:text-xl"
               />
               <p className="text-lg md:text-xl">
-                At The Safe Space Global, we believe that sustainable business growth happens when leaders have clear strategic vision, aligned executive teams, and proven frameworks for decision-making. Our work spans the full spectrum of professional development: from guiding C-suite executives, to scaling businesses, to advancing individual career trajectories.
+                At Apex Executive Advisory, we believe that sustainable business growth happens when leaders have clear strategic vision, aligned executive teams, and proven frameworks for decision-making. Our work spans the full spectrum of professional development: from guiding C-suite executives, to scaling businesses, to advancing individual career trajectories.
               </p>
               <p className="text-lg md:text-xl">Whatever your professional goals, you are in the right place.</p>
             </div>
@@ -106,7 +106,7 @@ export default async function Home() {
                 &quot;We are here to elevate leaders, optimize businesses, and accelerate growth.&quot;
               </p>
               <p className="mt-4 text-sm font-bold text-amber-brand uppercase tracking-widest">
-                The Safe Space Team
+                Apex Executive Team
               </p>
             </div>
           </GsapReveal>

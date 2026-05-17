@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Terms of Service | The Safe Space Global",
+  title: "Terms of Service | Apex Executive Advisory",
   description: "Terms of service for executive advisory bookings, corporate retainers, cancellation policies, and platform use.",
 };
 
@@ -11,7 +11,7 @@ export default function TermsPage() {
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="space-y-6">
             <p className="text-lg text-brown-brand/80 font-nunito">
-              Welcome to The Safe Space Global. By accessing our website, booking our services, or participating in our programs, you agree to comply with and be bound by the following Terms of Service. Please read them carefully before using our platform.
+              Welcome to Apex Executive Advisory. By accessing our website, booking our services, or participating in our programs, you agree to comply with and be bound by the following Terms of Service. Please read them carefully before using our platform.
             </p>
             <p className="text-sm font-bold uppercase tracking-widest text-amber-brand">
               Last updated: May 2026
@@ -21,7 +21,7 @@ export default function TermsPage() {
           <section className="space-y-4">
             <h2 className="text-3xl font-playfair font-bold text-navy-brand">1. Nature of Services</h2>
             <p className="text-brown-brand/80 font-nunito leading-relaxed">
-              The Safe Space Global provides executive coaching, business strategy advisory, leadership masterclasses, and corporate training. <strong className="text-red-500">We are not a crisis center or an emergency medical service.</strong>
+              Apex Executive Advisory provides executive coaching, business strategy advisory, leadership masterclasses, and corporate training. <strong className="text-red-500">We are not a crisis center or an emergency medical service.</strong>
             </p>
             <p className="text-brown-brand/80 font-nunito leading-relaxed">
               Our advisory services focus on organizational strategy, executive performance, and leadership capacity building. They do not constitute formal medical, psychological, or psychiatric treatment.
@@ -62,14 +62,14 @@ export default function TermsPage() {
           <section className="space-y-4">
             <h2 className="text-3xl font-playfair font-bold text-navy-brand">5. Intellectual Property</h2>
             <p className="text-brown-brand/80 font-nunito leading-relaxed">
-              All content on this website, including text, graphics, logos, images, and educational materials, is the property of The Safe Space Global or its content creators and is protected by intellectual property laws. You may not reproduce, distribute, or create derivative works without our explicit written permission.
+              All content on this website, including text, graphics, logos, images, and educational materials, is the property of Apex Executive Advisory or its content creators and is protected by intellectual property laws. You may not reproduce, distribute, or create derivative works without our explicit written permission.
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-3xl font-playfair font-bold text-navy-brand">6. Limitation of Liability</h2>
             <p className="text-brown-brand/80 font-nunito leading-relaxed">
-              To the fullest extent permitted by law, The Safe Space Global shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use of our website or advisory services. The content on this site is for informational and educational purposes and does not substitute for professional legal, financial, or medical advice.
+              To the fullest extent permitted by law, Apex Executive Advisory shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use of our website or advisory services. The content on this site is for informational and educational purposes and does not substitute for professional legal, financial, or medical advice.
             </p>
           </section>
 

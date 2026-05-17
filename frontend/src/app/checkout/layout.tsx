@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Checkout | The Safe Space Global",
+  title: "Checkout | Apex Executive Advisory",
   description: "Review your order and complete payment securely.",
 };
 
